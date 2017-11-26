@@ -1,0 +1,18 @@
+c:\users\administrator\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\bin\Debug\JalaFoundation.Dev23.Practice.exe.config
+c:\users\administrator\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\bin\Debug\JalaFoundation.Dev23.Practice.exe
+c:\users\administrator\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\bin\Debug\JalaFoundation.Dev23.Practice.pdb
+c:\users\administrator\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\obj\Debug\JalaFoundation.Dev23.Practice.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\obj\Debug\JalaFoundation.Dev23.Practice.exe
+c:\users\administrator\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\obj\Debug\JalaFoundation.Dev23.Practice.pdb
+C:\Users\AnaMedrano\Desktop\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\bin\Debug\JalaFoundation.Dev23.Practice.exe.config
+C:\Users\AnaMedrano\Desktop\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\bin\Debug\JalaFoundation.Dev23.Practice.exe
+C:\Users\AnaMedrano\Desktop\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\bin\Debug\JalaFoundation.Dev23.Practice.pdb
+C:\Users\AnaMedrano\Desktop\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\obj\Debug\JalaFoundation.Dev23.Practice.csprojResolveAssemblyReference.cache
+C:\Users\AnaMedrano\Desktop\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\obj\Debug\JalaFoundation.Dev23.Practice.exe
+C:\Users\AnaMedrano\Desktop\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\obj\Debug\JalaFoundation.Dev23.Practice.pdb
+C:\Users\Lucho\Desktop\VISUAL\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\bin\Debug\JalaFoundation.Dev23.Practice.exe.config
+C:\Users\Lucho\Desktop\VISUAL\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\bin\Debug\JalaFoundation.Dev23.Practice.exe
+C:\Users\Lucho\Desktop\VISUAL\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\bin\Debug\JalaFoundation.Dev23.Practice.pdb
+C:\Users\Lucho\Desktop\VISUAL\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\obj\Debug\JalaFoundation.Dev23.Practice.csprojResolveAssemblyReference.cache
+C:\Users\Lucho\Desktop\VISUAL\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\obj\Debug\JalaFoundation.Dev23.Practice.exe
+C:\Users\Lucho\Desktop\VISUAL\JalaFoundation.Dev23.Practice\JalaFoundation.Dev23.Practice\obj\Debug\JalaFoundation.Dev23.Practice.pdb

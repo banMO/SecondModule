@@ -1,0 +1,24 @@
+using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace JalaFoundation.Dev23.Types.Tests
+{
+    [TestClass]
+    public class UnitTest2
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+            Student student1 = new Student("Pepe");
+            Student student2 = student1;
+            AssignName(out student2);
+            Assert.AreEqual(student1.Name, "Pepe");
+            Assert.AreEqual(student2.Name, "Juan");
+        }
+
+        private void AssignName(out Student student)
+        {
+            student.Name = "Juan";//inicializar una variable declarada solo utilizas out
+        }
+    }
+}

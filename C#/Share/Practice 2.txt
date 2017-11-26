@@ -1,0 +1,13 @@
+################################################
+Practice 2: Creating and validating custom types
+################################################
+
+Research about what is boxing and unboxing in C#.
+
+Do unit tests representing both concepts and upload that code to gitlab.
+
+Create a readme file with the following detailed content:
+
+   ¿Qué es boxing?
+   ¿Qué es unboxing?
+   ¿Cúando debería usuar boxing/unboxing?

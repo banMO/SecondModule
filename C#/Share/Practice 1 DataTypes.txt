@@ -1,0 +1,33 @@
+##################################################
+Practice 1: Printing the details of built-in types
+##################################################
+
+a) Research for the whole list of built-in types in C#.
+b) Create a new solution and project in C# (console application).
+c) Implement the code for printing the following information for each built-in type you found in your research.
+
+Example of output:
+------------------
+
+	Type name = System.Int32
+	Min value = -2147483648
+	Max value = 2147483647
+	Is value type = true
+	Size = Uses 4 bytes to store a value
+
+	Type name = System.String
+	Is Value type = false
+
+
+Note: All the information should be retrieved and printed programatically (not hardcoding the outputs)
+
+The following C# methods/operators can help you for achieving your purpose:
+-----------------------------------------------------------------
+Console.WriteLine
+typeof
+sizeof
+
+The following information is NOT needed to be printed for reference types:
+	Min Value
+	Max Value
+	Size

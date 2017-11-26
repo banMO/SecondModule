@@ -1,0 +1,17 @@
+Practice
+--------
+
+Crear un extension method para:
+
+string: obtener la ultima letra de cada palabra
+
+	string a = "hello world"
+	string b = a.GetLastLetterWord(); // b = "o d"
+
+string: QuickSort
+
+string: BubbleSort
+
+string: toBase64
+
+all value types (IConvertible): toBase64
