@@ -1,0 +1,12 @@
+Many expect that Web Components — in particular, Custom Elements — are the future of web markup and scripting. But time will tell. Web Components go pretty deep; we could probably write an entire book on the topic! If you want to read more, check out the spec links referenced above or the sources listed below:
+	*WebComponents.org
+
+	*Polymer (A Custom Elements polyfill)
+
+	*An Introduction to Web Components and Polymer by Pankaj Parashar
+
+	*Intro to Shadow DOM by Agraj Mangal
+
+	*HTML's New Template Tag by Eric Bidelman
+
+	*An Introduction to HTML Imports by Armando Roggio
