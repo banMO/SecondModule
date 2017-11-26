@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action method="get">
+		<caption>Personal Information</caption>
+		<fieldset>
+		<label for="firstNameId">First Name</label>
+		<input type="text" id="firstNameId" name="firstName" placeholder="Escribe tu nombre Ej: ANA">
+		<br>
+
+		<label for="lastNameId">Last Name</label>
+		<input type="text" id="lastNameId" name="lastName" placeholder="Escribe tu Apellido Ej: Medrano">
+		<br>
+	
+		<label>Gender</label>
+		<br>
+		<input type="radio" name="gender" value="male" checked>
+		<input type="radio" name="gender" value="female">
+		</fieldset>
+		<caption>other info</caption>
+		<fieldset>
+		<label>skills</label>
+		<br>
+		<input type="checkbox" name="lan" value="la" ><label title="trata de te">unit testing</label>
+		<br>
+		<input type="checkbox" name="lan" value="las" ><label title ="progrqamacion orinetada a on">POO</label>
+		<br>
+		<input type="checkbox" name="lan" value="las" ><label title ="trata testear">TDD</label>
+		<br>
+		<input type="checkbox" name="lan" value="las"><label title ="trata testear">Generics</label>
+		<br>
+		<label>Favorite Languages</label>
+		<br>
+		<select name="favorite">
+			<option value="C-sharp">C#</option>
+			<option value="java">java</option>
+			<option value="php">Php</option>
+		</select>
+		</fieldset>
+		<input type="submit" value="Send" >
+	</form>
+</body>
+</html>

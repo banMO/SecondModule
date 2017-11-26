@@ -1,0 +1,18 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+ 
+ .circle{
+ 	border: 2px solid black;
+ 	width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+
+ }
+
+ div:nth-of-type(4n+1)
+ {
+ 	background: red;
+ }

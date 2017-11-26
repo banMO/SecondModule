@@ -1,0 +1,47 @@
+.Tittle
+{
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.Disc-Style
+{
+    color: black;
+    list-style-type:disc;
+}
+
+.Link
+{
+    font-size: 10px;
+    color: deepskyblue;
+    margin-left: 5px;
+    display: inline;
+}
+
+.Name
+{
+    font-size: 24px;
+    color: white;
+    float: left;
+}
+
+.Hash
+{
+    font-size: 20px;
+    color: white;
+    float: left;
+}
+
+.Description
+{
+    font-size: 15px;
+    color: white;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Another
+{
+    
+}

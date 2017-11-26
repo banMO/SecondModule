@@ -1,0 +1,408 @@
+body {
+  font-family: 'Arial Rounded MT Bold';
+  color: #7f8c8d;
+  font-size: 14px;
+  background-color: #ededed; 
+  background-image: url("../img/background.jpg");
+  background-size:cover;
+}
+
+.blueLetter{
+	font-family: 'Arial Rounded MT Bold';
+	color: #007bb6;
+	font-size: 14px;
+}
+
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+ 	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.topnav .item {
+    float: left;
+    display: block;
+    color: #66757f;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.topnav .item:hover {
+    border-color: #0084b5;
+}
+
+.topnav .item:active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .logo {
+	color: #56afec;
+    padding: 10px;
+    vertical-align:middle;
+}
+
+.topnav .left{float:left;}
+.topnav .right{float:right;}
+
+.topnav span{ vertical-align: middle; padding: 8px}
+
+
+.myButton {
+    background-color: #4CAF50; /* Green */
+    font-family: 'Arial';
+	color: #66757f;
+	font-weight: bold;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    height: 20;
+    margin: 8px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.myButton:hover {
+    background-color: #ececec; /* Green */
+ }
+
+.buttonGray {
+    background-color: white;
+    color: #66757f;
+    border: 2px solid #e7e7e7;
+}
+
+
+.buttonGrayB {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    margin-left: 0px;
+}
+
+#content {
+	display: block;
+	margin-top: 80px;
+	margin-left: 100px;
+	margin-right: 100px; 
+	margin-bottom: : 10px;
+}
+
+#PanelLeft {
+	float: left;
+	display: block;
+	width: 30%;
+}
+#PanelRight {
+	padding-left: 15px;
+	float: left;
+	display: block;
+	width: 65%;
+}
+
+#profileContainer {
+	border-radius: 5px;
+	background-color: white;
+	padding: 0px;
+	margin-bottom: 10px; 
+}
+
+#profileImage {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-image: url("../img/profileImage.jpg");
+	background-size:cover;
+	height: 320px;
+	color: white;
+	font-weight: bold; 
+}
+
+#profileInfo {
+	height: 60px;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.photo {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	background-color: white;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+
+.photo-small {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	background-color: white;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+
+.contentMiddle {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containerMiddle{
+	  display: flex;
+	  flex-direction: column;
+	  text-align: center;
+	  justify-content: center;
+	  height: 100%;
+}
+
+.containerMiddle .text{
+	  width: 80%;
+}
+
+.ammount{
+	font-family: 'Arial Black';
+	color: #56afec;
+	font-size: 18px;
+	margin: 5px 10px;
+	margin-top: 0px;
+}
+.info{
+	font-family: 'Arial Rounded MT Bold';
+	color: #66757f;
+	margin: 5px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+
+.TableNews{
+	width: 100%;
+	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+	border-color: #66757f;
+}
+
+
+.TableNews .sideBar{
+	text-decoration: none;
+	color:  #66757f;
+}
+
+.TableNews .viewComments{
+	text-decoration: none;
+	color:  #56afec;
+}
+
+.fontBlue{
+	color: #56afec;
+}
+.fontBold{
+	font-weight: bold;
+}
+
+.fontBig{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0px 10px 0px;
+}
+
+.ProfileMenu{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Arial Rounded MT Bold';
+	font-size: 18px;
+	color: #66757f;
+	padding: 0px;
+}
+
+.ProfileMenu .Active{
+	font-family: 'Arial Rounded MT Bold';
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+	border-width: 0px 0px 0px 0px;
+	border-style: none;
+}
+
+.ProfileMenu div{
+	width: 100%;
+	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+	border-color: #66757f;
+	height: 22px;
+	padding: 8px 0px 8px 0px;
+	cursor: pointer;
+}
+
+.ProfileMenu div:hover{
+	font-family: 'Arial Rounded MT Bold';
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+
+.spanLeft{
+	display: block;
+  	float:left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.spanRight{
+	display: block;
+    float:right;
+    font-weight: bold;
+	padding-right: 10px;
+}
+
+
+.ProfileMenu .title{
+	font-family: 'Arial Rounded MT Bold';
+	width: 100%;
+	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+	border-color: #66757f;
+	height: 22px;
+	padding: 8px 0px 8px 0px;
+	cursor: pointer;
+}
+
+.ProfilePhoto{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Arial Rounded MT Bold';
+	font-size: 18px;
+	color: #66757f;
+	height: 220px;
+}
+
+.photoVideos {
+	width: 100px;
+	height: 88px;
+}
+
+.ProfilePhoto .title{
+	font-family: 'Arial Rounded MT Bold';
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+.whoToFollow
+{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Arial Rounded MT Bold';
+}
+.whoToFollow .element
+{
+	display: block;
+	width: 100%;	
+}
+
+.whoToFollow .element .left
+{
+	padding-left: 5px;
+	float: left;
+	width: 20%;	
+
+	overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.whoToFollow .element .right
+{
+	float: right;
+	width: 78%;	
+
+	overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.whoToFollow .name
+{
+	font-weight: bold;
+	font-size: 15px;
+	color: black;
+}
+
+.whoToFollow .address
+{
+	font-weight: bold;
+	font-size: 15px;
+	overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.whoToFollow .title
+{
+	font-family: 'Arial Rounded MT Bold';
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.whoToFollow .elemenTitle
+{
+	margin: 0px;
+	text-align: left;
+}
+
+.whoToFollow ul {
+    padding: 0px;
+    margin: 5px;
+}
+
+.whoToFollow a {
+    color: #56afec;
+    text-decoration: none;
+}
+
+
+.whoToFollow li {
+    display: inline;
+    list-style-type: circle;
+}
+
+.whoToFollow .item:before {
+  content: '\2022';
+  margin-right: 0.2em;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="Menu-left"><a title="Opcion 1" href="#">Home</a></li>
+			<li class="Menu-left"><a title="Opcion 2" href="#">Notifications</a></li>
+			<li class="Menu-left"><a title="Opcion 3" href="#">Discover</a></li>
+			<li class="Menu-left"><a title="Opcion 4" href="#">Me</a></li>
+		</ul>
+		<ul>
+			<li class="Menu-rigth"><a title="Opcion 1" href="#"><i class="fa fa-pencil" style="font-size:40px; color: #00BFFF"></i></a></li>
+			<li class="Menu-rigth"><a title="Opcion 2" href="#"><i class="fa fa-cog" style="font-size:40px;"></i></a></li>
+			<li class="Menu-rigth"><a title="Opcion 2" href="#"><i class="fa fa-envelope" style="font-size:40px;"></i></a></li>
+			<li class="Menu-rigth">
+				<a title="Opcion 3" href="#">
+					<fieldset class="searchform">
+						<input type="text" value="Search" class="searchfield" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}"/> 
+						<i class="fa fa-search"></i>
+					</fieldset>	
+				</a>
+			</li>
+		</ul>
+		<a title="Opcion 4" href="#"><i class="fa fa-twitter" style="font-size:40px; color:#08a0e9; padding-top: 10px; padding-left: 22%;"></i></a>
+	</nav>
+	<div class="div-left">
+		<nav id="nav-menu">
+			<ul>
+				<li><a title="Opcion 1" href="#"><strong>Tweets<i class="fa fa-angle-right" style="float: right;"></i></strong></a></li>
+				<hr>
+				<li><a title="Opcion 2" href="#">Following<i class="fa fa-angle-right" style="float: right;"></i></a></li>
+				<hr>
+				<li><a title="Opcion 3" href="#">Followers<i class="fa fa-angle-right" style="float: right;"></i></a></li>
+				<hr>
+				<li><a title="Opcion 4" href="#">Favorites<i class="fa fa-angle-right" style="float: right;"></i></a></li>
+				<hr>
+				<li><a title="Opcion 4" href="#">Lists<i class="fa fa-angle-right" style="float: right;"></i></a></li>
+			</ul>
+		</nav>
+		<div>
+		<nav id="nav-menu">
+			<ul>
+				<li><a title="Opcion 4" href="#">Photos and videos<i class="fa fa-angle-right" style="float: right;"></i></a></li>
+				<hr>
+				<table>
+					<tr>
+						<td><img class="img" src="css/logo.jpg"></td>
+						<td><img class="img" src="css/logo.jpg"></td>
+					</tr>
+					<tr>
+						<td><img class="img" src="css/logo.jpg"></td>
+						<td><img class="img" src="css/logo.jpg"></td>
+					</tr>
+				</table>
+			</ul>
+		</nav>
+	</div>
+	<div>
+		<nav id="nav-menu">
+			<h3 class="text">Who to follow</h3>
+			<table class="table-post">
+			<tr>
+				<td><img src="css/logo.jpg"></td>
+				<td>
+					<strong>Kevan Lee</strong><br>
+					Lorem Ipsum es simplemente
+					<fieldset class="field-follow">
+						<input class="input-follow" type="submit" value="follow"/> 
+						<i class="fa fa-wheelchair"></i>
+					</fieldset>	 
+				</td>
+			</tr>
+			</table>
+			<table class="table-post">
+			<tr>
+				<td><img src="css/logo.jpg"></td>
+				<td>
+					<strong>Kevan Lee</strong><br>
+					Lorem Ipsum es simplemente
+					<fieldset class="field-follow">
+						<input class="input-follow" type="submit" value="follow"/> 
+						<i class="fa fa-wheelchair"></i>
+					</fieldset> 
+				</td>
+			</tr>
+			</table>
+		</nav>
+	</div>
+	</div>
+	<div  class="div-rigth">
+		<img id="photo-perfil" src="css/logo.jpg">
+		<h1 class="font-perfil"><strong>Kevan Lee</strong></h1>
+		<h3 class="font-perfil">@kevanlee</h3>
+		<h3 class="font-perfil">Content Crafter at @buffer. Tweeting about my writing process and my favorite</h3>
+		<h3 class="font-perfil">Internet things. Live simply, give generously.</h3>
+		<h3 class="font-perfil">Idaho - blog.bufferapp.com</h3>
+		<div class="div-rigth-down">
+			<nav>
+				<ul>
+					<li class="Menu-left"><a title="Opcion 1" href="#">
+					<table>
+						<tr>
+							<td>TWEETS</td>
+						</tr>
+						<tr>
+							<td class="font-blue">383</td>
+						</tr>
+					</table>
+					</a></li>
+					<li class="Menu-left"><a title="Opcion 2" href="#">
+					<table>
+						<tr>
+							<td>FOLLOWING</td>
+						</tr>
+						<tr>
+							<td class="font-blue">637</td>
+						</tr>
+					</table>
+					</a></li>
+					<li class="Menu-left"><a title="Opcion 3" href="#">
+					<table>
+						<tr>
+							<td>FOLLOWERS</td>
+						</tr>
+						<tr>
+							<td class="font-blue">2,077</td>
+						</tr>
+					</table>
+					</a></li>
+				</ul>
+				<ul>
+					<li class="Menu-rigth"><a title="Opcion 1" href="#">
+						<input id="botton-right" type="submit" name="" value="Edit profile">
+					</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div  class="div-rigth-2">
+		<H1 class="text">Tweets</H1>
+		<hr>
+		<table class="table-post">
+			<tr>
+				<td><img src="css/logo.jpg"></td>
+				<td>
+					<strong>Kevan Lee</strong><br>
+					Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido<br>
+					<fieldset class="field-follow-post">
+						<input class="input-follow-post" type="submit" value="View"/> 
+						<i class="fa fa-envelope"></i>
+					</fieldset> 	
+				</td>
+			</tr>
+		</table>
+		<hr>
+		<table class="table-post">
+			<tr>
+				<td><img src="css/logo.jpg"></td>
+				<td>
+					<strong>Kevan Lee</strong><br>
+					Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor<br>
+					<fieldset class="field-follow-post">
+						<input class="input-follow-post" type="submit" value="View"/> 
+						<i class="fa fa-envelope"></i>
+					</fieldset>  
+				</td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+html,body
+{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+ p{
+ 	position: relative;
+ 	display: inline-block;
+ }
+ p:hover::after{
+ 	content: 'nana'
+ 	position: absolute;
+ 	top: -15px;
+ 	right: -25px;
+ 	background: black;
+ 	color: white;
+ 	border-radius: 2px;
+ 	padding: 2px;
+ }
+

@@ -1,0 +1,31 @@
+p{ 
+	color:red !important; 
+ }
+ /*Comments
+ type class id */
+ /**{
+ 	color: green;
+ }*/
+ .square-a{
+ 	background: red;
+ 	height: 100px;
+ 	width: 100px;
+ }
+ #circle{
+ 	background: orange;
+ 	height: 100px;
+ 	width: 100px;
+ 	border-radius: 50%;
+ }
+ input{
+ 		width: 200px;
+		-webkit-border-radius: 5px;
+		/*-moz-border-radius: 5px;*/
+		border: 1px solid #BDC2C9;
+		float: right;
+ }
+ 
+/*div.form
+     { text-align: center;
+
+      }*/

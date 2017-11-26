@@ -1,0 +1,165 @@
+body{
+    background:#3CF;
+    margin: 0px;
+}
+nav{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));/*Para chrome y Safari*/
+    /*Degradados*/
+    background-image: -moz-linear-gradient(top center, #FFF, #CCC);/*Para Firefox*/
+    background-image: -o-linear-gradient(top, #FFF, #CCC);/*Para Opera*/
+    background-image: linear-gradient(top, #FFF, #CCC);/*El estandar por defecto*/
+    overflow:hidden;
+    width:100%;
+}
+nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+.Menu-left{
+    /*Bordes redondeados*/
+    -webkit-border-radius:5px;/*Chrome y Safari*/
+    -moz-border-radius:5px;/*Firefox*/
+    -o-border-radius:5px;/*Opera*/
+    border-radius:5px;/*Estandar por defecto*/
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+    font-color:black;
+    /*Sombras para texto, los mismos parametros que box-shadow*/
+    text-shadow: 0px 1px 0px #FFF;
+    padding-top: 10px;
+}
+.Menu-rigth{
+    /*Bordes redondeados*/
+    -webkit-border-radius:5px;/*Chrome y Safari*/
+    -moz-border-radius:5px;/*Firefox*/
+    -o-border-radius:5px;/*Opera*/
+    border-radius:5px;/*Estandar por defecto*/
+    float:right;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+    font-color:black;
+    /*Sombras para texto, los mismos parametros que box-shadow*/
+    text-shadow: 0px 1px 0px #FFF;
+}
+nav ul li a{
+    color:#999;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    /*Transiciones*/
+    -webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;
+}
+nav ul li a:hover {
+    color:#000;
+}
+.searchform {
+border-radius: 2em;
+}
+.searchform .searchfield {
+	border: none;
+	background: none;
+}
+.div-left{
+	width: 250px;
+	background: none;
+	float: left;
+}
+.div-rigth{
+	width: 1050px;
+	background-image: url('img.jpg');
+	float: right;
+	margin: 20px;
+	text-align: center;
+}
+.div-rigth-down{
+	padding-top: 80px;
+}
+#nav-menu{
+	margin: 20px;
+	border-radius: 1em;
+}
+#photo-perfil{
+	margin: 50px;
+	border-radius: 1em;
+	margin-bottom: 10px;
+}
+.font-perfil{
+	color: white;
+	margin: 5px;
+}
+#div-rigth-bottom{
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: right;
+	margin-top: 60px;
+    font-size:12px;
+    color: #646262;
+    /*Sombras para texto, los mismos parametros que box-shadow*/
+    text-shadow: 0px 1px 0px #FFF;
+}
+.font-blue{
+	color: #00BFFF;
+	font-size: 20px;
+	text-align: left;
+}
+#botton-right{
+	margin-top: 25px;
+	font-size: 18px;
+	border: none;
+}
+.div-rigth-2{
+	width: 1050px;
+	background: white;
+	float: right;
+	margin: 20px;
+	text-align: left;
+}
+.text{
+	padding-left: 20px;
+	color: #646262;
+}
+.table-post{
+	padding-left: 20px;
+}
+.img{
+	width:100%;
+}
+.field-follow{
+	background: none;
+	border-radius: 1em;
+	width: 50%;
+}
+.input-follow{
+	background: none;
+	border: none;
+	float: right;
+	width: 40px;
+}
+.input-follow-post{
+	background: none;
+	border: none;
+	float: right;
+	width: 40px;
+	color: blue; 
+}
+.field-follow-post{
+	background: none;
+	border-radius: 1em;
+	width: 7%;
+	border: none;
+	color: blue;	
+}
+
+

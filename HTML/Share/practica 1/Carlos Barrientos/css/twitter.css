@@ -1,0 +1,172 @@
+body{
+	background: #00acee;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+div {
+
+   
+}
+.div-nav-main{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 9px;	
+	background: white;
+
+}
+.muro{
+	height: 800px;
+	width: 90%; 
+	margin-left: 5%;
+
+}
+
+.aside-main{
+	height: 800px;
+    width: 30%;
+    float: left;
+	margin-right: 2%;
+}
+.articulos{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	border-radius: 1%;
+}
+.principal{
+	height: 800px;
+    width: 68%;
+    float: left;
+}
+.portada{
+	height: 250px;
+	width: 100%;
+	background-image: url(../image/portada.jpg);
+	background-size: 100% 250px;
+	align-items: center;
+}
+
+.nav-portada{
+
+	height: 50px;
+	width: 100%;
+	background: white;
+	margin-bottom: 11px;
+	border-bottom-left-radius: 2%;
+	border-bottom-right-radius: 2%;
+	
+}
+
+.div-menu{
+	height: 150px;
+	width: 100%;
+	margin-bottom: 9px;
+	border-radius: 3%;
+	background-color: #f1f1f1;
+}
+
+.div-photos-videos{
+	height: 200px;
+	width: 96%;
+	padding: 2%;
+	background-color: #f1f1f1;	
+	margin-bottom: 11px;
+	border-radius: 3%;
+}
+.div-news{
+	height: 300px;
+	width: 96%;
+	padding: 2%;
+	background-color: #f1f1f1;
+	border-radius: 3%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+}
+/*
+li a:hover {
+    background-color: #111;
+}
+*/
+.li-nav{
+	float: left;
+    text-align: center;
+    padding: 12px 16px;
+    color: gray;
+
+}
+
+.li-nav-port-1{
+	float: left;
+    text-align: center;	
+    padding: 5px 16px ;
+    color: gray;
+}
+
+.il-menu{
+	height: 14px;
+	color: gray;
+	padding-left: 11px;
+	align-content: center;
+}
+
+.ul-menu{
+	
+}
+
+.foto-id{
+	width: 60px;
+	height: 60px;
+	position: absolute; 
+	border: 3px;
+	left: 61%;
+	top: 16%;
+}
+
+.fperfil{
+	height: 100%; 
+	border: 5px;
+	border-color: white;
+}
+
+
+.div-nav-port{
+	width: 10%;
+	background: white;
+
+}
+.num-nav-port{
+	color: #00acee;
+	padding: 0px;
+	border: 0px;
+}
+
+.table-photos{
+	width: 100%;
+	height: 75px;
+	
+}
+
+.table-news{
+	width: 100%;
+	height: 80%;
+}
+
+.description{
+	color:white;
+	position: absolute;
+	text-align:  center;
+	top: 25%;
+	width: 60%;
+}

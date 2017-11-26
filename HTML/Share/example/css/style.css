@@ -1,0 +1,45 @@
+caption
+{
+	text-align: left;
+	border-bottom: 2px solid gray;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+table
+{
+	text-align: right;
+}
+
+tr
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.contenedor_formulario
+{
+	text-align: center;
+}
+
+.td_boton {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #9999;
+	text-align: center;
+}
+
+.label_especial
+{
+	color: red;
+}
+
+.especial_boton
+{
+	border:1px solid #7eb9d0; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+	background-color: #a7cfdf; background-image: -webkit-gradient(linear, left top, left bottom, from(#a7cfdf), to(#23538a));
+	background-image: -webkit-linear-gradient(top, #a7cfdf, #23538a);
+	background-image: -moz-linear-gradient(top, #a7cfdf, #23538a);
+	background-image: -ms-linear-gradient(top, #a7cfdf, #23538a);
+	background-image: -o-linear-gradient(top, #a7cfdf, #23538a);
+	background-image: linear-gradient(to bottom, #a7cfdf, #23538a);
+}

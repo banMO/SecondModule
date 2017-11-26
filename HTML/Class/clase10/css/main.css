@@ -1,0 +1,24 @@
+html, body{
+	height: 100%;
+	weight:100%;
+	
+}
+
+/*div > p {
+	color: yellow;
+}*/
+
+div + p {
+	background: : yellow;
+}
+
+/*p ~ ul{
+		background: blue;
+}*/
+a[target~=_blank]{//igual
+	background: red;
+}
+/*a[target=blank]{
+	background: red;
+}
+*/

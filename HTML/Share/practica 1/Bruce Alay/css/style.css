@@ -1,0 +1,572 @@
+
+body {
+	background-image: url("images/body2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-navigation {
+	width: 98%;
+	margin-bottom: 2%;
+}
+
+.menu-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E6E6E6;
+    border-radius: 5px;
+}
+
+.menu-navigation li {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.menu-navigation li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.menu-navigation .menu-navigation-left:hover, .menu-navigation .menu-navigation-right:hover{
+
+    border-bottom: 10px solid blue;
+}
+
+
+.menu-navigation-right {
+	width: 50px;	
+	float: right;
+}
+
+.menu-navigation-right-especial {
+	width: 200px;	
+	float: right;
+	background-color: gray;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 20px;
+}
+
+.menu-navigation-left {
+	width: 105px;
+	float: left;
+}
+
+.menu-navigation-center {
+	width: 105px;
+	float: both;
+}
+
+
+.content-search label {
+	display: inline;
+}
+
+.label-search {
+ 	color: white;
+ 	float: left;
+ 	margin-left: 5px; 
+}
+
+.content-front {
+	margin-left: 40px;
+}
+
+.front {
+	background-image: url("images/portada.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 90%;
+	min-height: 350px;
+	border-radius: 10px;
+}
+
+.front-info {
+	background: #E6E6E6;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+}
+
+.content-picture {
+	text-align: center;
+	width: 100%
+}
+.picture {
+	background-image: url("images/foto.jpg");
+	background-repeat: round;
+	background-size: contain;
+	border: 2px solid black;
+	width: 150px;
+	height: 150px;
+	margin-top: 30px;
+}
+
+.description {
+	width: 95%;
+	height: 100%;
+	text-align: center;
+	-webkit-text-fill-color: green;
+	-webkit-text-stroke: 2px green;
+	font-size: 20px;
+}
+
+.description ul {
+	list-style: none;
+}
+
+.description ul li:first-child {
+	font-weight: bold;
+}
+
+.front-info ul {
+	list-style: none;
+	display: inline;
+}
+.front-info ul li {
+	margin-right: 10px;
+	margin-left: 10px;
+	display: inline;
+	float: left;
+	line-height: 0;
+}
+
+.front-info span {
+	margin-top: 10px;
+	float: right;
+	margin-right: 20px;
+}
+
+.front-info ul li label {
+	font-weight: bold;
+	color: blue;
+}
+
+.front-info ul li p {
+	color: gray;
+}
+
+
+.menu-option, .menu-option * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.menu-option {
+	margin-left: 5% ;
+	list-style: none;
+	width: 300px;
+	background: #E6E6E6;
+	border-radius: 10px;
+}
+
+.menu-option li {
+	list-style: none;
+}
+
+.menu-option li a {
+	display: block;
+	padding: 10px 10px 10px 20px;
+	color: gray;
+	border-bottom: 1px solid #000;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+.menu-option li ul {
+	max-height: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	transition: 0.3s all ease-in;
+}
+
+.menu-option li li a {
+	padding: 10px 10px 10px 40px;
+	background: #BDBDBD;
+	color: black;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.menu-option li li:last-child a {
+	border-bottom: 0;
+}
+/*
+.menu-option li:hover ul {
+	max-height: 300px;
+	transition: 0.3s all ease-in;
+}
+*/
+.menu-option li a:hover {
+	background: #848484;
+	color: #fff;
+}
+
+.menu-option-subtitle {
+	font-weight: bold;
+	color: black;
+}
+
+.icon-menu-bold {
+	-webkit-text-fill-color: gray;
+	-webkit-text-stroke: 2px gray;
+	float: right;
+}
+
+.icon-menu {
+	-webkit-text-fill-color: gray;
+	-webkit-text-stroke: 1px gray;
+	float: right;
+}
+
+
+.content-extra-pictures, .content-extra-pictures * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 10px;
+}
+
+.content-extra-pictures {
+	margin-top: 2%;
+	margin-left: 5%;
+	list-style: none;
+	width: 300px;
+	background-color: #E6E6E6;
+}
+
+.content-extra-pictures li {
+	display: inline;
+	color: gray;
+	box-sizing: border-box;
+}
+
+.content-extra-pictures li img {
+	width: 97px;
+	height: 97px;
+	background-repeat: round;
+	background-size: contain;
+}
+
+.content-extra-pictures li img:hover, .content-extra-pictures li p:hover {
+	cursor: pointer;
+}
+
+
+.content-extra-pictures li p {
+	display: block;
+	padding: 10px 10px 10px 20px;
+	background: #E6E6E6;
+	color: gray;
+	box-sizing: border-box;
+}
+
+.extra-picture1 {
+	background-image: url("images/foto1.jpg");
+}
+
+.extra-picture2 {
+	background-image: url("images/foto2.jpg");
+}
+
+.extra-picture3 {
+	background-image: url("images/foto3.jpg");
+}
+
+.extra-picture4 {
+	background-image: url("images/foto4.jpg");
+}
+
+.extra-picture5 {
+	background-image: url("images/foto5.jpg");
+}
+
+.extra-picture6 {
+	background-image: url("images/foto6.jpg");
+}
+
+
+.content-follow {
+	width: 300px;
+	background-color: #E6E6E6;
+	margin-left: 5%;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+.content-follow ul{
+	-webkit-padding-start: 0px;
+	margin-left: 5px;
+}
+.content-info-follow, .content-info-tweets {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.content-info-follow li img, .content-info-tweets li img {
+	width: 60px;
+	height: 60px;
+	background-repeat: round;
+	background-size: contain;
+	display: inline;
+	margin-right: 5px;
+}
+
+.content-info-follow ul div {
+	display: inline-block;
+	list-style: none;
+}
+
+.content-info-follow ul li, .tweets-time, .tittle-tweets {
+	color: gray;
+}
+
+.content-info-follow ul li button{
+	font-weight: bold;
+	color: black;
+}
+
+
+.follow-picture1 {
+	background-image: url("images/follow1.jpg");
+}
+
+.follow-picture2 {
+	background-image: url("images/follow2.jpg");
+}
+
+.follow-picture3 {
+	background-image: url("images/follow3.jpg");
+}
+
+.tittle-follow  {
+	color: gray;
+	font-size: 20px;
+}
+.tittle-follow li
+{
+	display: inline;
+	color: blue;
+	font-size: 10px;
+}
+
+.follow-follow, .tweets-follow {
+	color: blue;
+}
+
+.follow-name, .follow-tweets {
+	font-weight: bold;
+	color: black;
+}
+
+.follow-icon {
+	float: right;
+}
+
+
+
+.tittle-tweets {
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	border-bottom: 1px solid gray;
+}
+
+.tweets-picture1 {
+	background-image: url("images/foto.jpg");
+}
+
+.content-info-tweets ul {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	-webkit-padding-start: 10px;
+}
+
+.content-info-tweets ul li:last-child {
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+.content-info-tweets li > ul {
+	border-bottom: 1px solid black;
+}
+
+.content-menu-option {
+	display: inline-block;
+}
+
+.label-tweets {
+	margin-left: 20px;
+}
+
+.tweets {
+	margin-left: 40px;
+    background-color: #E6E6E6;
+    margin-top: 20px;
+    margin-right: 65px;
+    border-radius: 10px;
+}
+
+.size-left {
+	display: block;
+}
+
+.tweets_image {
+	float: left;
+}
+
+.tweets_description   {
+	display: inline;
+}
+
+.content-info-tweets ul div {
+	list-style: none;
+}
+
+.tweets-follow-boton {
+	color: blue;
+}
+
+.tweets-follow-boton:hover {
+	cursor: pointer;
+}
+
+.icon-conversation {
+	background-image: url("images/icono_comentario.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	color: transparent;
+	margin-right: 5px;
+}
+
+.icon-follow {
+	background-image: url("images/icono_follow.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	color: transparent;
+	margin-right: 5px;
+}
+
+.icon-follow {
+	background-image: url("images/icono_follow.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	color: transparent;
+	margin-right: 5px;
+}
+
+.icon-notification {
+	background-image: url("images/icono_notification.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	color: transparent;
+	margin-right: 5px;
+}
+
+.icon-numeral {
+	background-image: url("images/icono_numeral.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	color: transparent;
+	margin-right: 5px;
+}
+
+.icon-home {
+	background-image: url("images/icono_home.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	color: transparent;
+	margin-right: 5px;
+}
+
+.icon-twitter {
+	background-image: url("images/icono_twitter.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	color: transparent;
+}
+
+.icon-write {
+	background-image: url("images/icono_write.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	color: transparent;
+}
+
+.icon-setting {
+	background-image: url("images/icono_setting.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	color: transparent;
+}
+
+.icon-message {
+	background-image: url("images/icono_mensaje.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 10px;
+	height: 10px;
+	color: transparent;
+}
+
+.icon-message:hover {
+	cursor: pointer;
+}
+.icon-setting:hover {
+	cursor: pointer;
+}
+
+.icon-write:hover {
+	cursor: pointer;
+}
+
+.icon-search {
+	background-image: url("images/icono_search.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	color: transparent;
+	float: right;
+	margin-right: 5px;
+}
+.front-boton button{
+	color: gray;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 8px;
+	padding-left: 8px;
+}

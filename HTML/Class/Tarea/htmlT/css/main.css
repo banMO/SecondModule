@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+}
+.menu{
+	
+	height: 40px;
+	border: 1px solid 
+	/*background-color: #e6ecf0;*/
+	background-color: red;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 50px 40px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-weight: bold;
+	color: #607D8B;
+}
+
+#general{
+	background-color: #e6ecf0;
+	width: 100%px;
+	height: 900px;
+	position: absolute;
+}
+
+#options{
+	margin: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 80%px;
+	height: 900px;
+	background-color: red ;
+}
+
+#first{
+	width: 50%px;
+	height: 900px;
+	float: left;
+}
+
+#menuFirst{
+	width: 50%px;
+	height: 175px;
+
+}
+
+#photos{
+	margin-top: 15px;
+	margin-top: 15px;
+	width: 50%px;
+	height: 300px;
+	border: 2px  ;
+	border-radius: 15px;
+	background-color: #FAFAFA;
+
+}
+
+#profile{
+	width: 70%px;
+	height: 900px;
+	float: right;
+	margin-top: 15px;
+	background-color: green;
+
+}
+
+#perfil{
+	width: 60%px;
+	height: 500px;
+	/*background-color: purple ;*/
+	/*float: right;*/
+
+	border: 2px  ;
+	border-radius: 15px;
+	background-color: #FAFAFA;
+}
+
+#tweets{
+	margin-top: 15px;
+	width: 60%px;
+	height: 500px;
+	float: right;
+
+	border: 2px  ;
+	border-radius: 15px;
+	background-color: #FAFAFA;
+}
+
+.menuF{
+	width: 400px;
+	height: 175px;
+	border: 2px  ;
+	border-radius: 15px;
+	background-color: #FAFAFA;
+
+}
+.menuF ul li{
+	list-style: none;
+	float: left;
+	margin-left: 10px;
+}
+
+.menuF ul li a{
+	text-decoration: none;
+	
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-weight: bold;
+	color: #616161;
+	display: block;
+	border-bottom: 1px solid #555;
+	text-align: left;
+	padding: 10px 110px;
+}
+/*.menuF ul {
+	list-style: none;
+	float: left;
+	margin: 0;
+    padding: 0;
+    width: 400px;
+	height: 230px;
+	margin-left: 10px;
+}
+/*
+.menuF ul li a{
+	text-decoration: none;
+	padding: 18px 171px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-weight: bold;
+	color: #616161;
+	display: block;
+	border-bottom: 1px solid #555;
+	text-align: left;
+}*/
+
+
+

@@ -1,0 +1,19 @@
+.Container
+{
+    text-align: center;
+}
+
+.Left
+{
+    float: left;
+}
+
+.Center
+{
+    display: inline-block;
+}
+
+.Right
+{
+    float: right;
+}

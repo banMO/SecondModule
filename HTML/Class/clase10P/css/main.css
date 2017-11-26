@@ -1,0 +1,15 @@
+html, body
+{
+	height: 100%;
+	weight: 100;
+}
+.contenedor + .inputForm{
+	weight: 50%;
+	pading: 10px;
+	color: #607D8B;
+	border: 1px solid black;
+}
+.inputForm + .inputForm
+{
+	margin-top: 10px;
+}
