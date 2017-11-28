@@ -1,0 +1,24 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.navbar{
+	height: 7%;
+	background: rgb(106, 56, 42);
+}
+
+.container{
+	background: red;
+	height: 93%;
+	background-image: url(../img/ini.jpg);
+}
+
+.google-login{
+	height: 50px;
+	width: 100px;
+}
+

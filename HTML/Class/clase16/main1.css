@@ -1,0 +1,31 @@
+html ,body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*.container{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+}*/
+
+.box{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	padding: 20px;
+	margin: 20px;
+	border: 5px solid black;
+	box-sizing: border-box;/*content-box-->border box */
+	border-radius: 50%;/*top left bottom rigth, top rigt botton left
+	3 valores top, left rigth, botton
+	----browser support
+		--
+		posicionamiento
+		alineamiento
+		layaout
+	*/
+	-web
+}

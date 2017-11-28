@@ -1,0 +1,16 @@
+html ,body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	/*display: inline;*/
+	/*display: block;//toma  todo de su padre*/
+	display: none;
+	height: 50px;
+	width: 50px;
+	margin: 20px;
+	padding: 20px;
+}

@@ -27,6 +27,7 @@ html, body {
 
 	font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
+    color: white;
 }
 
 .navbar-list > li > a {
@@ -40,7 +41,7 @@ html, body {
 	left: 0;
 
 	background: #f6f7f9;
-	color: white;
+	color: blue;
 }
 
 .navbar-list .navbar-sub-list{
@@ -86,13 +87,13 @@ html, body {
 .right-panel {
 	height: 100%;
 	width: 20%;
-	background: green;
+	background: #dfe3ee;
 	float: left;
 }
 
 .publication{
 	width: 100%;
-	background: red;
+	background: #f6f7f9 ;
 	height: 500px;
 }
 
@@ -101,3 +102,26 @@ html, body {
 	width: 100%;
 	background-image: url('polich.jpg');
 }
+
+.navbar-sub-list > li:hover .list1  {
+  	display: block;
+    padding: 0px;
+	right: 100%;
+    top: 0;
+}
+
+.list1{
+	list-style: none;
+	display: none;
+	position: absolute;
+	height: auto;
+	width: 100px;
+	background: #8b9dc3 ;
+
+}
+
+.list1 > li > a {
+	text-decoration: none;
+	padding-left: 10%;
+}
+
