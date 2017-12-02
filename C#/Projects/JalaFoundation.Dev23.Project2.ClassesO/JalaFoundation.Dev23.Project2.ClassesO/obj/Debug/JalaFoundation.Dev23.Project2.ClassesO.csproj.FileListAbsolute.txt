@@ -1,0 +1,6 @@
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Project2.ClassesO\JalaFoundation.Dev23.Project2.ClassesO\bin\Debug\JalaFoundation.Dev23.Project2.ClassesO.exe.config
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Project2.ClassesO\JalaFoundation.Dev23.Project2.ClassesO\bin\Debug\JalaFoundation.Dev23.Project2.ClassesO.exe
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Project2.ClassesO\JalaFoundation.Dev23.Project2.ClassesO\bin\Debug\JalaFoundation.Dev23.Project2.ClassesO.pdb
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Project2.ClassesO\JalaFoundation.Dev23.Project2.ClassesO\obj\Debug\JalaFoundation.Dev23.Project2.ClassesO.csprojResolveAssemblyReference.cache
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Project2.ClassesO\JalaFoundation.Dev23.Project2.ClassesO\obj\Debug\JalaFoundation.Dev23.Project2.ClassesO.exe
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Project2.ClassesO\JalaFoundation.Dev23.Project2.ClassesO\obj\Debug\JalaFoundation.Dev23.Project2.ClassesO.pdb

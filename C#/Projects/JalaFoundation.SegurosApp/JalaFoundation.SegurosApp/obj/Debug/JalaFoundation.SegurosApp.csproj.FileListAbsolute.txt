@@ -1,0 +1,12 @@
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\bin\Debug\JalaFoundation.SegurosApp.exe.config
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\bin\Debug\JalaFoundation.SegurosApp.exe
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\bin\Debug\JalaFoundation.SegurosApp.pdb
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\bin\Debug\CivilSociety.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\bin\Debug\MedicalSociety.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\bin\Debug\Society.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\bin\Debug\CivilSociety.pdb
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\bin\Debug\MedicalSociety.pdb
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\bin\Debug\Society.pdb
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\obj\Debug\JalaFoundation.SegurosApp.csprojResolveAssemblyReference.cache
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\obj\Debug\JalaFoundation.SegurosApp.exe
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\JalaFoundation.SegurosApp\obj\Debug\JalaFoundation.SegurosApp.pdb

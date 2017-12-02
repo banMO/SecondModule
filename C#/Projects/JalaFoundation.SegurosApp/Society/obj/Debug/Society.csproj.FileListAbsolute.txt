@@ -1,0 +1,5 @@
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\Society\bin\Debug\Society.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\Society\bin\Debug\Society.pdb
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\Society\obj\Debug\Society.csprojResolveAssemblyReference.cache
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\Society\obj\Debug\Society.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\Society\obj\Debug\Society.pdb

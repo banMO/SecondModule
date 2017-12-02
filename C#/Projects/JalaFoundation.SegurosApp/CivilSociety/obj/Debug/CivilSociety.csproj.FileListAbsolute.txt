@@ -1,0 +1,7 @@
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\CivilSociety\bin\Debug\CivilSociety.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\CivilSociety\bin\Debug\CivilSociety.pdb
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\CivilSociety\bin\Debug\Society.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\CivilSociety\bin\Debug\Society.pdb
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\CivilSociety\obj\Debug\CivilSociety.csprojResolveAssemblyReference.cache
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\CivilSociety\obj\Debug\CivilSociety.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\CivilSociety\obj\Debug\CivilSociety.pdb

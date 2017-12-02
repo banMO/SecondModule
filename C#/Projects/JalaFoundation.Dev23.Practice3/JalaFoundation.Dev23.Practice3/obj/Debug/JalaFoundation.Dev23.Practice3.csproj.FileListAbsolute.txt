@@ -1,0 +1,6 @@
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice3\JalaFoundation.Dev23.Practice3\bin\Debug\JalaFoundation.Dev23.Practice3.exe.config
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice3\JalaFoundation.Dev23.Practice3\bin\Debug\JalaFoundation.Dev23.Practice3.exe
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice3\JalaFoundation.Dev23.Practice3\bin\Debug\JalaFoundation.Dev23.Practice3.pdb
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice3\JalaFoundation.Dev23.Practice3\obj\Debug\JalaFoundation.Dev23.Practice3.csprojResolveAssemblyReference.cache
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice3\JalaFoundation.Dev23.Practice3\obj\Debug\JalaFoundation.Dev23.Practice3.exe
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice3\JalaFoundation.Dev23.Practice3\obj\Debug\JalaFoundation.Dev23.Practice3.pdb
