@@ -1,0 +1,43 @@
+html, body{
+	height: 100%;
+	width: 100;
+	padding: 0;
+	margin: 0;
+
+}
+
+/*
+index.html
+div{
+	height: 100px;
+	width: 100px;
+}
+
+.left{
+	background-color: red;
+	float: left;
+}
+
+.right{
+	background-color: green;
+	float: right;
+}
+*/
+
+
+.square{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	top: 100px;
+	left: 100px;
+	/*position: relative;*/
+	position: absolute;
+}
+
+.container{
+	height: 500px;
+	width: 500px;
+	background-color: blue;
+	overflow: hidden;
+}

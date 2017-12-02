@@ -1,0 +1,19 @@
+html, body{
+	height: 100%;
+	width: 100;
+	padding: 0;
+	margin: 0;
+
+}
+
+.nav{
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	background-color: blue;
+	top: 0;
+} 
+.square{
+	height: 200px;
+	border-style: 20px solid black;
+}
