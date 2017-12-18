@@ -1,0 +1,84 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.user-form{
+	width:50%;
+	padding: 10px;
+	border: 1px solid black; 
+}
+
+.input-form {
+	width: 100%;
+}
+
+.input-form + .input-form{
+	margin-top: 10px; 
+}
+
+a:active{
+	background-color: red;
+}
+
+a::after{
+	content: 'Dev int 23';
+}
+
+a::before{
+	content: 'hola';
+}
+
+input::checked + label{
+	color: red;
+}
+
+input:disable{
+	background-color: yellow;
+}
+
+div:empty{
+	background: red;
+}
+
+p:first-child{
+	color: red;
+	background: white;
+}
+
+p::first-letter{
+	color: yellow;
+	text-transform: uppercase;
+}
+
+p::first-line{
+	background: red;
+}
+
+div:first-of-type{
+	background: orange;
+}
+
+input:focus{
+	background: red;
+}
+
+/*p:after{
+	content: 'text';
+}*/
+
+p{
+	position: relative;
+	display: inline-block;
+}
+
+p:hover::after{
+	content: 'tes';
+	position: absolute;
+	top:-15px;
+	right: -25px;
+	background: black;
+	color: white;
+	border-radius: 2px;
+	padding: 2px;
+}

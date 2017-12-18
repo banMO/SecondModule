@@ -1,0 +1,20 @@
+p{
+	color: red;
+}
+
+*{
+	color: white;
+}
+
+.square {
+	background: red;
+	height: 100px;
+	width: : 100px;
+}
+
+#circle {
+	background: orange;
+	height: 100px;
+	width: 100px;
+	border-radius: : 50%;
+}

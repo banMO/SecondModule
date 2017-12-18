@@ -1,0 +1,169 @@
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	padding: auto;
+	margin: auto;
+	font-family: sans-serif;
+	color: #66757f;
+	font-weight: bold;
+	background: url(../image/image.jpg);
+}
+
+.nav-search{
+	border-radius: 10px;
+	width: 150px;
+}
+
+.nav-container{
+	width: 100%;
+	height: 45px;
+	background: #E6E6FA;
+	justify-content: center;
+  	align-items: center;
+}
+
+.table-left{
+	float: left;
+	display: inline;
+}
+
+.table-rigth{
+	float: right;
+	display: inline;
+}
+
+.twitter-icom{
+	width: 24px;
+	height: 21px;
+	margin: auto;
+}
+.container{
+	width: 1150px;
+	height: 100%;
+	
+	padding: 20px 100px 20px 100px;
+}
+
+.columna-small{
+	float: left;
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+
+}
+
+.links{
+	height: 210px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 1px 10px 10px 10px;
+}
+
+.photos{
+	height: 260px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px 10px 10px 30px;
+}
+
+.follow{
+	height: 300px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 20px 0px 20px;
+}
+
+.colum-wall{
+	float: right;
+	width: 67%;
+	height: 100%;
+	display: inline-block;
+}
+
+.profile{
+	height: 450px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.tweets{
+	height: 500px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 20px 0px 20px;
+}
+
+.image {
+	width: 90px;
+	height: 90px;
+}
+
+.margen-lista{
+	margin: 0;
+}
+
+#flecha {
+	float: right;
+}
+
+.image-profile{
+	height: 390px;
+	width: 100%;
+	border-radius: 5px;
+	background-image: url("../image/snoopy7.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  	align-items: center;
+  	color: red;
+}
+
+.set-profile{
+	padding: 10px 20px 0px 20px;
+}
+
+.button-profile{
+	float: right;
+	display: inline;
+}
+
+.picture-profile{
+	width: 100px;
+	height: 99px;
+	border-radius: 5px;
+	background-image: url("../image/snoopy8.jpg");
+}
+
+.description-profile{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  	align-items: center;	
+}
+
+.name-profile{
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.email-profile{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.detail-profile{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  	align-items: center;
+	color: green;
+}
+
+.numbers-set-profile{
+	color: #53A2B5;
+}

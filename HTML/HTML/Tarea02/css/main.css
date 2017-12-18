@@ -1,0 +1,23 @@
+.container {
+	height: 200px;
+	width: 300px
+}
+
+.body {
+	background: white;
+
+}
+
+.final {
+	background: #F5F1E4;
+	height: 60px;
+}
+
+#label{
+	text-align: right;
+}
+
+#submit {
+	text-align: center;
+	height: 60px;
+}
