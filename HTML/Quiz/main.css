@@ -1,0 +1,19 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.cuadro{
+	width: 20%;
+	height: 20%;
+	border-radius: 5px;
+	box-shadow: 3px 3px 6px blue;
+	margin-left: 20px;
+	position: inline;
+}
+
+
+p[name^=”mi”] { font-size: 40px }
+p[name$=”mi”] { font-size: 60px }
+p[name*=”mi”] { font-size: 20px }

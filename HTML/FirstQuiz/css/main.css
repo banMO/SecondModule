@@ -1,0 +1,19 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	background-color: #607D8B ;
+	height: 8%;
+	width: 100%;
+	position: absolute;
+}
+#logo{
+	height: 100%;
+	width: 10%;
+	
+	position: relative;
+	background-color: red;
+}
