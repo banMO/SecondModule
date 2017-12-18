@@ -1,0 +1,9 @@
+c:\users\anamedrano\documents\visual studio 2017\Projects\ImplicitTypes\ImplicitTypes\bin\Debug\netcoreapp1.1\ImplicitTypes.deps.json
+c:\users\anamedrano\documents\visual studio 2017\Projects\ImplicitTypes\ImplicitTypes\bin\Debug\netcoreapp1.1\ImplicitTypes.runtimeconfig.json
+c:\users\anamedrano\documents\visual studio 2017\Projects\ImplicitTypes\ImplicitTypes\bin\Debug\netcoreapp1.1\ImplicitTypes.runtimeconfig.dev.json
+c:\users\anamedrano\documents\visual studio 2017\Projects\ImplicitTypes\ImplicitTypes\bin\Debug\netcoreapp1.1\ImplicitTypes.dll
+c:\users\anamedrano\documents\visual studio 2017\Projects\ImplicitTypes\ImplicitTypes\bin\Debug\netcoreapp1.1\ImplicitTypes.pdb
+c:\users\anamedrano\documents\visual studio 2017\Projects\ImplicitTypes\ImplicitTypes\obj\Debug\netcoreapp1.1\ImplicitTypes.csprojResolveAssemblyReference.cache
+c:\users\anamedrano\documents\visual studio 2017\Projects\ImplicitTypes\ImplicitTypes\obj\Debug\netcoreapp1.1\ImplicitTypes.AssemblyInfo.cs
+c:\users\anamedrano\documents\visual studio 2017\Projects\ImplicitTypes\ImplicitTypes\obj\Debug\netcoreapp1.1\ImplicitTypes.dll
+c:\users\anamedrano\documents\visual studio 2017\Projects\ImplicitTypes\ImplicitTypes\obj\Debug\netcoreapp1.1\ImplicitTypes.pdb

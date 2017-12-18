@@ -1,0 +1,5 @@
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice2\JalaFoundation.Dev23.Practice2\bin\Debug\JalaFoundation.Dev23.Practice2.exe.config
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice2\JalaFoundation.Dev23.Practice2\bin\Debug\JalaFoundation.Dev23.Practice2.exe
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice2\JalaFoundation.Dev23.Practice2\bin\Debug\JalaFoundation.Dev23.Practice2.pdb
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice2\JalaFoundation.Dev23.Practice2\obj\Debug\JalaFoundation.Dev23.Practice2.exe
+c:\users\anamedrano\documents\visual studio 2017\Projects\JalaFoundation.Dev23.Practice2\JalaFoundation.Dev23.Practice2\obj\Debug\JalaFoundation.Dev23.Practice2.pdb

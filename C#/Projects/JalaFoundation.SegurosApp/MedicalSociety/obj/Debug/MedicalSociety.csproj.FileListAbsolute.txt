@@ -1,0 +1,7 @@
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\MedicalSociety\bin\Debug\MedicalSociety.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\MedicalSociety\bin\Debug\MedicalSociety.pdb
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\MedicalSociety\obj\Debug\MedicalSociety.csprojResolveAssemblyReference.cache
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\MedicalSociety\obj\Debug\MedicalSociety.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\MedicalSociety\obj\Debug\MedicalSociety.pdb
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\MedicalSociety\bin\Debug\Society.dll
+C:\Users\AnaMedrano\documents\visual studio 2017\Projects\JalaFoundation.SegurosApp\MedicalSociety\bin\Debug\Society.pdb

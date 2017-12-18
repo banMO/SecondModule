@@ -1,0 +1,137 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+}
+
+.navbar {
+	height: 50px;
+	background: #4267b2;
+}
+
+.navbar-list {
+	list-style: none;
+	padding-left: 0;
+	color: white;
+}
+
+.navbar-list > li {
+	display: inline-block;
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.navbar-list > li > a {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-list > li:hover .navbar-sub-list {
+	display: block;
+	top: 100%;
+	left: 0;
+
+	background: #f6f7f9;
+	color: blue;
+}
+
+.navbar-list .navbar-sub-list{
+	list-style: none;
+	display: none;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	height: 200px;
+	width: 200px;
+}
+
+.navbar-list .navbar-sub-list >li > a {
+	text-decoration: none;
+	position: relative;
+	padding-left: 10%;
+}
+
+.page {
+	height: 100%;
+	width: 100%;
+}
+
+.left-panel {
+	height: 100%;
+	width: 20%;
+	background: #8b9dc3;
+	float: left;
+}
+.center-panel {
+	height: 100%;
+	width: 58%;
+	background: #f6f7f9;
+	float: left;
+	overflow-y: auto;	
+	overflow-x: hidden;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 2px  ;
+	border-radius: 10px;
+}
+
+.right-panel {
+	height: 100%;
+	width: 20%;
+	background: #dfe3ee;
+	float: left;
+}
+
+.publication{
+	width: 100%;
+	background: #f6f7f9 ;
+	height: 500px;
+}
+
+.image{
+	height: 400px;
+	width: 100%;
+	background-image: url('polich.jpg');
+}
+
+.navbar-sub-list > li:hover .list1  {
+  	display: block;
+    padding: 0px;
+	right: 100%;
+    top: 0;
+}
+
+.list1{
+	list-style: none;
+	display: none;
+	position: absolute;
+	height: auto;
+	width: 100px;
+	background: #8b9dc3;
+}
+
+.list1 > li > a {
+	text-decoration: none;
+	padding-left: 10%;
+}
+
+.list2{
+    list-style: none;
+    height: 200px;
+    position: absolute;
+}
+
+.list2 > li{
+    padding.left: 10%;
+    
+}
+

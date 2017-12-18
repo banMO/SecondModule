@@ -1,0 +1,6 @@
+c:\users\anamedrano\documents\visual studio 2017\Projects\TeamBanana.ChaukaApp\TeamBanana.ChaukaApp\bin\Debug\TeamBanana.ChaukaApp.exe.config
+c:\users\anamedrano\documents\visual studio 2017\Projects\TeamBanana.ChaukaApp\TeamBanana.ChaukaApp\bin\Debug\TeamBanana.ChaukaApp.exe
+c:\users\anamedrano\documents\visual studio 2017\Projects\TeamBanana.ChaukaApp\TeamBanana.ChaukaApp\bin\Debug\TeamBanana.ChaukaApp.pdb
+c:\users\anamedrano\documents\visual studio 2017\Projects\TeamBanana.ChaukaApp\TeamBanana.ChaukaApp\obj\Debug\TeamBanana.ChaukaApp.csprojResolveAssemblyReference.cache
+c:\users\anamedrano\documents\visual studio 2017\Projects\TeamBanana.ChaukaApp\TeamBanana.ChaukaApp\obj\Debug\TeamBanana.ChaukaApp.exe
+c:\users\anamedrano\documents\visual studio 2017\Projects\TeamBanana.ChaukaApp\TeamBanana.ChaukaApp\obj\Debug\TeamBanana.ChaukaApp.pdb

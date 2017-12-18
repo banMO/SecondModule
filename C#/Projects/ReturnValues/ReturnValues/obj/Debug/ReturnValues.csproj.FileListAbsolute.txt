@@ -1,0 +1,6 @@
+c:\users\anamedrano\documents\visual studio 2017\Projects\ReturnValues\ReturnValues\obj\Debug\ReturnValues.csprojResolveAssemblyReference.cache
+c:\users\anamedrano\documents\visual studio 2017\Projects\ReturnValues\ReturnValues\bin\Debug\ReturnValues.exe.config
+c:\users\anamedrano\documents\visual studio 2017\Projects\ReturnValues\ReturnValues\bin\Debug\ReturnValues.exe
+c:\users\anamedrano\documents\visual studio 2017\Projects\ReturnValues\ReturnValues\bin\Debug\ReturnValues.pdb
+c:\users\anamedrano\documents\visual studio 2017\Projects\ReturnValues\ReturnValues\obj\Debug\ReturnValues.exe
+c:\users\anamedrano\documents\visual studio 2017\Projects\ReturnValues\ReturnValues\obj\Debug\ReturnValues.pdb
