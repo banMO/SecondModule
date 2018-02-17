@@ -4,16 +4,86 @@ html, body{
 	padding: 0;
 	margin: 0;
 }
-.navbar{
-	background-color: #607D8B ;
-	height: 8%;
+.nav{
+	background-color: #78909C;
+	height: 10%;
 	width: 100%;
-	position: absolute;
 }
-#logo{
-	height: 100%;
-	width: 10%;
-	
-	position: relative;
-	background-color: red;
+.container{
+	width: 100%;
+	height: 90%;
+	top: 10%;
+}
+.left-panel{
+    width: 30%;
+    height: 100%;
+    background-color: #B0BEC5; 
+    float: left;
+}
+.center-panel{
+    width: 70%;
+    height: 100%;
+    background-color: #CFD8DC;
+    float: right;
+}
+.menu-rigth{
+
+}
+
+.nav-left{
+    width: 50%;
+    height: 100%;
+    background: ;
+    float: left;
+}
+.nav-right{
+    width: 30%;
+    height: 100%;
+    background: #607D8B;
+    float: right;
+}
+.nav-log{
+    float: left;
+    width: 10%;
+    height:10%;
+    background: #CFD8DC;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    float: left;
+    padding: 5px;
+    border: 1px;
+    height: 100%;
+}
+.sub-menu{
+    margin: 0;
+    list-style: none;
+    display: none;
+    background-color: #90A4AE ;
+    float:left;
+    position: absolute;
+    padding-left: 0px;
+}
+.sub-menu li{
+    padding: 1px;
+}
+.menu li{
+    position: relative;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.menu1 li a{
+	text-decoration: none;
+}
+.tablas{
+	width: 20%;
+	height: 40%;
+	border: 1px solid black;
 }
