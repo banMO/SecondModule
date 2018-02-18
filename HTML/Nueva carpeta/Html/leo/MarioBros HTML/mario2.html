@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mario Run</title>
+	<link rel="stylesheet" type="text/css" href="mario2.css">	
+</head>
+<body>
+	<div id="background" class="background">
+    <div class="title"></div>
+  	<div id="mario" class="mario"></div>
+    <div id="tube1" class="tube"></div>
+    <script>            
+      
+      window.addEventListener("load", function(event) {
+      	docReady();
+      });
+
+      document.onkeydown = moveAnimation;
+      document.onkeyup = stopAnimation;
+
+      var left = 0;
+      var player, tube, playerWidth, playerHeight, playerX, playerY, tw, th, tx, ty;     
+
+      function docReady() {
+        player = document.getElementById('mario');
+        tube = document.getElementsByClassName("tube");
+        detectCollisions();
+      }
+
+      function moveAnimation(e) {
+        if(e.keyCode == 39) { //right arrow                
+          player.style.left = (player.offsetLeft += 5) + 'px';
+          player.style.animation = "walk-right 1s steps(4) infinite";
+        } 
+        else if(e.keyCode == 37) { //left arrow                
+          player.style.left = (player.offsetLeft -= 5) + 'px';
+          player.style.animation = "walk-left 1s steps(4) infinite";
+        } 
+        else if(e.keyCode == 32) { //space for jump                
+          player.style.left = (player.offsetLeft += 15) + 'px';
+          player.style.animation = "jump 1.5s infinite";
+        }
+      }
+
+      function stopAnimation() {
+        player.style.animation = "face-forward 1s infinite";
+      }
+      
+      function detectCollisions() {
+        for(let i = 0; i < tube.length; i++)
+        {
+          playerWidth = player.offsetWidth;
+          playerHeight = player.offsetHeight;
+          playerX = player.offsetLeft;
+          playerY = player.offsetTop;
+          tw = tube[i].offsetWidth;
+          th = tube[i].offsetHeight;
+          tx = tube[i].offsetLeft;
+          ty = tube[i].offsetTop;
+
+         
+          if(((playerX+playerWidth) > tx && playerX < tx) && ((playerY+playerHeight) > ty && playerY < (ty+th))) {
+            console.log("collision detected with" + tube[i].id);
+            this.player.style.left = (player.offsetLeft -= 5) + 'px';
+            this.tube[i].style.animationPlayState = "paused";
+            this.background.style.animationPlayState = "paused";
+          }
+          if(playerX < (tx+tw) && (playerX+playerWidth)>(tx+tw) && ((playerY+playerHeight) > ty && playerY < (ty+th))) {
+            console.log("collision detected with" + tube[i].id);
+            this.player.style.left = (player.offsetLeft += 5) + 'px';
+          } 
+          if((playerX < (tx+tw)) && (playerX >= tx)) {
+            this.tube[i].style.animationPlayState = "running";
+            this.background.style.animationPlayState = "running";
+          }
+          if ((playerY+playerHeight) < ty && ((playerX+playerWidth) > tx && playerX < (tx + tw)))
+          {
+            this.player.style.animationPlayState = "paused";
+            this.player.style.top = (player.offsetTop = (ty-th)) + 'px';
+            this.player.style.animationPlayState = "running";
+          }
+          if((playerX < (tx+tw)) && (playerX > tx) && playerY ==(ty-th)) {
+            this.player.style.top = (player.offsetTop = ty) + 'px';
+          }
+          if((playerX > (tx+tw)) && (playerX > tx) && playerY ==(ty-th)) {
+            this.player.style.top = (player.offsetTop = ty) + 'px';
+          }
+          if(((playerX + playerWidth) < tx) && playerY ==(ty-th)) {
+            this.player.style.top = (player.offsetTop = ty) + 'px';
+          }
+        }
+        window.requestAnimationFrame(detectCollisions);
+      } 
+
+    </script>
+  </div>
+</body>
+</html>

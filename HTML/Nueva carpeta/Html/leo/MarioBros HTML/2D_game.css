@@ -1,0 +1,153 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 0%;
+  left: 40%;
+  background: url(./images/titlemega.jpg);
+  background-size: 100% 100%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: url(./images/megaback.jpg) repeat-x;
+  background-size: 100% 100%; 
+  margin: 0;
+  overflow: hidden;
+  animation: animate-background linear 11s infinite;
+
+}
+
+.megaman {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  background: url(./images/megaman.gif);
+  background-size: 100% 100%;
+  height: 100px;
+  width: 100px;
+}
+
+.zero {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 40%;
+  animation: animate-tube1 linear 11s infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+#zero1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 40%;
+  background-image: url('./images/enemix.gif');
+  background-size: 100% 100%; 
+  border: 1px solid black;
+  
+}
+
+#zero2 {
+  left: 85%; 
+  animation-delay: 6s;
+  background-image: url('./images/enemi3.gif');
+  background-size: 100% 100%; 
+  border: 1px solid black;
+  
+}
+
+#zero3 {
+  left: 85%;
+  animation-delay: 14.5s;
+  background-image: url('./images/enemi4.gif');
+  background-size: 100% 100%; 
+  border: 1px solid black;
+  
+}
+
+@keyframes animate-tube1 {
+  from {
+    left: 85%;
+  }
+  to {
+    left: -100px;
+  }
+}
+
+
+@keyframes animate-background {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -1370px;
+  }
+}
+
+@keyframes walk-right {
+  0% { background-position: 100px 100px;  }
+  100% { background-position: 100px 100px;  }
+}
+
+@keyframes walk-left {
+  0% { background-position: 100px 100px;  }
+  100% { background-position: 100px 100px;  }
+}
+
+@keyframes jump {
+  0% {
+      top: 50%;
+      background: url(./images/jump2.jpg);
+      background-size: 100% 100%;
+  }
+  50% {
+      top: 20%;
+      background: url(./images/jump2.jpg);
+      background-size: 100% 100%;
+  }
+  100% {
+      top: 50%;
+      background: url(./images/jump2.jpg);
+      background-size: 100% 100%;
+  }
+}
+
+@keyframes fire {
+  0% {
+      background: url(./images/shoot.jpg);
+      background-size: 100% 100%;
+  }
+  50% {
+      background: url(./images/shoot.jpg);
+      background-size: 100% 100%;
+  }
+  100% {
+      background: url(./images/shoot.jpg);
+      background-size: 100% 100%;
+  }
+}
+
+
+@keyframes face-forward {
+  0% { background-position: 100px 100px;  }
+  100% { background-position: 100px 100px;  }
+}
+
+@keyframes die {
+  0% { 
+    background: url(./images/explosion.gif);
+    background-size: 100% 100%; }
+  100% { 
+    background: url(./images/explosion.gif); 
+    background-size: 100% 100%; }
+}

@@ -1,0 +1,180 @@
+
+html, body { 
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+
+.nav {
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	background: gray;
+}
+
+.nav div div:hover {
+	cursor: pointer;
+}
+
+.web {
+	width: 70%;
+	height: 50px;
+	float: left;
+}
+
+.log {
+	width: 10%;
+	height: 50px;
+	float: left;
+	background: url('./images/log.png');
+	background-size: 100% 100%;
+}
+
+.web-page {
+	line-height: 50px;
+	width: 20%;
+	font-size: 150%;
+	height: 50px;
+	float: left;
+}
+
+.options {
+	width: 30%;
+	height: 50px;
+	float: left;
+}
+
+.notifications {
+	width: 20%;
+	height: 100%;
+	float: left;
+	background: url('./images/notifications3.png');
+	background-size: 100% 100%;
+}
+
+.settings {
+	width: 20%;
+	height: 50px;
+	float: left;
+	background: url('./images/settings3.png');
+	background-size: 100% 100%;
+}
+
+.feedback {
+	width: 20%;
+	height: 50px;
+	float: left;
+	background: url('./images/comment2.png');
+	background-size: 100% 100%;
+
+}
+
+.user {
+	width: 40%;
+	height: 50px;
+	float: left;
+}
+
+.user div{
+	width: 50%;
+	height: 50px;
+	float: left;
+}
+
+.user div h4{
+	width: 100%;
+	font-size: 100%;
+}
+
+.user-icon {
+	background: url('./images/profile1.png');
+}
+
+.page {
+	height: 100%;
+	width: 100%;
+	background: blue;
+	margin-top: 50px;
+}
+
+.menu-icons {
+	width: 5%;
+	height: 100%;
+	background: blue;
+	float: left;
+}
+
+.menu-icons ol {
+	list-style: none;
+	padding: 0;
+
+}
+
+.help {
+	background: url('./images/');
+}
+
+.main-menu {
+	width: 20%;
+	height: 100%;
+	background: skyblue;
+	float: left;
+}
+
+.main-menu ol {
+	list-style: none;
+	padding: 10px;
+	line-height: 70px;
+	color: gray;
+}
+
+.main-menu ol li:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.content {
+	width: 75%;
+	height: 100%;
+	background: white;
+	float: left;
+	overflow-y: auto; 
+}
+
+.content div {
+	border-left: solid blue;
+}
+
+.content div ol {
+	color: blue;
+	list-style: none;
+	line-height: 30px;
+}
+
+.content div ol li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 700px){
+	.menu-icons {
+		display: none;
+	}
+	.content {
+		width: 80%;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+	.menu-main {
+		width: 10%;
+	}
+	.content {
+		width: 80%;
+	}
+}

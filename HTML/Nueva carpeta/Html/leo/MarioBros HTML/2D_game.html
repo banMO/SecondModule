@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Megaman X</title>
+	<link rel="stylesheet" type="text/css" href="2D_game.css">	
+</head>
+<body>
+	<div id="background" class="background">
+    <div class="title"></div>
+  	<div id="megaman" class="megaman"></div>
+    <div id="zero1" class="zero"></div>
+    <div id="zero2" class="zero"></div>
+    <div id="zero3" class="zero"></div>
+    <script>            
+      
+      window.addEventListener("load", function(event) {
+      	docReady();
+      });
+
+      document.onkeydown = moveAnimation;
+      document.onkeyup = stopAnimation;
+
+      var left = 0;
+      var player, zero, background, playerWidth, playerHeight, playerX, playerY, tw, th, tx, ty;     
+
+      function docReady() {
+        
+        player = document.getElementById('megaman');
+        zero = document.getElementsByClassName("zero");
+        detectCollisions();
+      }
+
+      function moveAnimation(keyPress) {
+        console.log(keyPress.keyCode);
+
+        if(keyPress.keyCode == 39) { //right arrow                
+          player.style.left = (player.offsetLeft += 5) + 'px';
+          player.style.animation = "walk-right 1s steps(4) infinite";
+
+        } 
+        else if(keyPress.keyCode == 37) { //left arrow                
+          player.style.left = (player.offsetLeft -= 5) + 'px';
+          player.style.animation = "walk-left 1s steps(4) infinite";
+        } 
+        else if(keyPress.keyCode == 38) { //up arrow 
+          player.style.left = (player.offsetLeft += 20) + 'px';               
+          player.style.animation = "jump 1.5s infinite";
+        }
+        else if(keyPress.keyCode == 32) { //space for jump                
+          player.style.animation = "fire 1.5s infinite";
+        }
+      }
+
+      function stopAnimation() {
+        player.style.animation = "face-forward 1s infinite";
+      }
+      
+      function detectCollisions() {
+        for(let i = 0; i < zero.length; i++)
+        {
+          playerWidth = player.offsetWidth;
+          playerHeight = player.offsetHeight;
+          playerX = player.offsetLeft;
+          playerY = player.offsetTop;
+          tw = zero[i].offsetWidth;
+          th = zero[i].offsetHeight;
+          tx = zero[i].offsetLeft;
+          ty = zero[i].offsetTop;
+
+         
+          if(((playerX+playerWidth) > tx && playerX < tx) && ((playerY+playerHeight) > ty && playerY < (ty+th))) {
+            console.log("collision detected with" + zero[i].id);
+            this.player.style.left = (player.offsetLeft -= 5) + 'px';
+            player.style.animation = "die 1s forwards";
+            window.setTimeout(function() {window.alert("You were killed by ZERO");}, 500);
+             
+          }
+          if(playerX < (tx+tw) && (playerX+playerWidth)>(tx+tw) && ((playerY+playerHeight) > ty && playerY < (ty+th))) {
+            console.log("collision detected with" + zero[i].id);
+            this.player.style.left = (player.offsetLeft += 5) + 'px';
+            player.style.animation = "die 1s forwards";
+            window.setTimeout(function() {window.alert("You were killed by ZERO");}, 500);
+          } 
+        }
+        window.requestAnimationFrame(detectCollisions);
+      } 
+
+    </script>
+  </div>
+</body>
+</html>

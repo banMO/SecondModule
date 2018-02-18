@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+	<div class="nav">
+		<div class="log">
+			<div>
+				Microsoft Azure
+			</div>
+		</div>
+		<div class="menu">
+			<ul>
+				<li>
+					<button class="button-search"></button>
+				</li>
+				<li>
+					<input type="text" name="search" placeholder="Search resource">
+				</li>
+				<li>
+					<button class="button-exit-search"></button>
+				</li>
+				<li>
+					<button class="button-log" id="notif">
+						<div>Notificaciones</div>
+					</button>
+					
+				</li>
+				<li>
+					<button class="button-log" id="config">
+						<div>Configuracion del portal</div>
+					</button>
+				</li>
+				<li>
+					<button class="button-log" id="coment">
+						<div>Envienos Comentarios</div>
+					</button>	
+				</li>
+				<li>
+					<button class="button-log" id="butt-help">
+						<ul>
+							<li>Ayuda y soporte tecnico</li>
+							<li>Metodos abreviados del teclado</li>
+							<li>Privacidad y terminos</li>
+							<li>Mostrar diagnosticos</li>
+						</ul>
+					</button>
+				</li>
+				<li>
+					<div>
+						jairo.kcr@outlook.com
+						<ul>
+							<li>Cerrar sesion</li>
+							<li>Cambiar contrasena</li>
+							<li>Mis permisos</li>
+							<li>Enviar una idea</li>
+							<li>Ver mi factura</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<button class="button-profile"></button>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="page">
+		<div class="select">
+			<div id="despliege">
+			</div>
+			<div id="new">
+			</div>
+			<div class="menu-main">
+				<ul>
+					<li>
+						<div id="dashboard"></div>
+						<div class="description">DashBoard</div>
+					</li>
+					<li>
+						<div id="resouces"></div>
+						<div class="description">All resouces</div>
+					</li>
+					<li>
+						<div id="group"></div>
+						<div class="description">Resources Group</div>
+					</li>
+					<li>
+						<div id="services"></div>
+						<div class="description">App Services</div>
+					</li>
+					<li>
+						<div id="databases"></div>
+						<div class="description">SQL databases</div>
+					</li>
+					<li>
+						<div id="data-w"></div>
+						<div class="description">SQL data warehouses</div>
+					</li>
+					<li>
+						<div id="noSQL"></div>
+						<div class="description">NoSQL (DocumentDB)</div>
+					</li>
+					<li>
+						<div id="virtual"></div>
+						<div class="description">Vitual Machines</div>
+					</li>
+					<li>
+						<div id="load"></div>
+						<div class="description">Load Balancers</div>
+					</li>
+					<li>
+						<div id="storage"></div>
+						<div class="description">Storage accounts</div>
+					</li>
+					<li>
+						<div id="networks"></div>
+						<div class="description">Virtual networks</div>
+					</li>
+					<li>
+						<div id="azure"></div>
+						<div class="description">Azure Active Directory</div>
+					</li>
+					<li>
+						<div id="monitor"></div>
+						<div class="description">Monitor</div>
+					</li>
+					<li>
+						<div id="advisor"></div>
+						<div class="description">Advisor</div>
+					</li>
+					<li>
+						<div id="security"></div>
+						<div class="description">Security Center</div>
+					</li>
+					<li>
+						<div id="billing"></div>
+						<div class="description">Billing</div>
+					</li>
+					<li>
+						<div id="help"></div>
+						<div class="description">Help + support</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="panel"></div>
+	</div>
+
+<script>
+	var aux=false;
+	$('#despliege').click(function(){
+		if(aux==false){
+			console.log('hola mundo');
+			$('.select').css('width','55px');
+			$('.description').css('display','none');
+			$('#new').css('background','url("azure3.png")');
+			$('#new').css('background-position','0px -156px');
+			aux=true;
+		}else{
+			console.log('hi');
+			$('.select').css('width','220px');
+			$('.description').css('display','block');
+			$('#new').css('background','url("azure.png")');
+			$('#new').css('background-position','0px -151px');
+			aux=false;
+		}
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,395 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.nav {
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #202428;
+}
+
+.log {
+	height: 40px;
+	width: 41%;
+	float: left;
+}
+
+.log div {
+	text-align: right;
+	font-size: 130%;
+	float: left;
+	width: 30%;
+	height: 100%;
+	color: #00bcf2;
+	margin-top: 1%;
+}
+
+.log div:hover {
+	cursor: pointer;
+}
+
+.menu {
+	width: 59%;
+	height: 40px;
+	float: left;
+}
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li {
+	float: left;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+}
+
+.menu ul li div {
+	float: left;
+	height: 100%;
+	width: 168px;
+	text-align: center;
+	font-size: 100%;
+}
+
+.button-search {
+	height: 66%;
+	width: 25px;
+	border: 0;
+	margin-top: 8px;
+	background-image: url('azure.png');
+	background-position: -585px -73px;
+}
+
+.menu input {
+	width: 350px;
+	height: 60%;
+	border: 0;
+	background-color: #4a4f53;
+	color: white;
+}
+
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: white;
+    font-style: oblique;
+}
+
+.button-exit-search {
+	height: 66%;
+	border: 0;
+	margin-top: 8px;
+	background-image: url('azure.png');
+	background-position: -953px -72px;
+	width: 25px;
+}
+
+.button-exit-search:hover {
+	cursor: pointer;
+}
+
+.button-log {
+	padding: 0;
+	border: 0;
+	height: 100%;
+	width: 40px;
+	position: relative;
+}
+
+#notif {
+	background-image: url('azure.png');
+	background-position: -986px -66px;
+}
+
+#config{
+	background-image: url('azure.png');
+	background-position: -1027px -66px;	
+}
+
+#coment{
+	background-image: url('azure.png');
+	background-position: -1068px -66px;
+}
+
+#butt-help{
+	background-image: url('azure.png');
+	background-position: -1109px -66px;
+}
+
+.button-log:hover {
+	cursor: pointer;
+	background-color: #4a4f53;
+    background-blend-mode: color-dodge;
+}
+
+.button-profile {
+	padding: 6px;
+	height: 100%;
+	width: 40px;
+	border: 0;
+	background-image: url('azure.png');
+	background-position: -1324px -66px;
+}
+
+.menu ul li div:hover {
+	cursor: pointer;
+	background-color: #4a4f53;
+}
+
+.button-profile:hover {
+	background-color: #4a4f53;
+	cursor: pointer;
+}
+
+.button-log div{
+	color: white;
+	display: none;
+}
+
+.button-log:active div{
+	position: absolute;
+	top: 40px;
+	display: block;
+	background-color: black;
+	width: 300px;
+	height: 500px;
+	text-align: left;
+	font-size: 130%;
+}
+
+.button-log ul{
+	display: none;
+	list-style: none;
+}
+.menu ul li div ul{
+	display: none;
+	list-style: none;
+}
+
+.button-log:active ul {
+	display: block;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	background-color: white;
+}
+
+.button-log:active ul li {
+	color: black;
+	width: 200px;
+}
+
+.button-log:active ul li:hover {
+	background-color: gray;
+	width: 200px;
+}
+
+.menu ul li div:active ul {
+	display: block;
+	position: absolute;
+	top: 40px;
+	background-color: white;
+}
+
+.menu ul li div:active ul li {
+	color: black;
+	width: 200px;
+}
+
+.menu ul li div:active ul li:hover {
+	background-color: gray;
+	width: 200px;
+}
+
+.page {
+	width: 100%;
+	height: 94%;
+	margin-top: 40px;
+	background-color: #2e80ab;
+}
+
+.select {
+	background-color: #282d32;
+	height: 100%;
+	width: 220px;/*16.5%*/
+	float: left;
+}
+
+.select div button{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#despliege {
+	float: left;
+	width: 100%;
+	height: 39px;
+	background-image: url('azure.png');
+	background-position:  0px -112px;
+}
+
+#despliege:hover, #new:hover {
+	background-color: #4a4f53;
+	cursor: pointer;
+	background-blend-mode: color-dodge;
+}
+
+#new {
+	float: left;
+	width: 100%;
+	height: 39px;
+	background-image: url('azure.png');
+	background-position:  0px -151px;
+}
+
+.menu-main {
+	float: left;
+	width: 100%;
+	height: 580px;
+}
+
+.menu-main:hover {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.menu-main ul {
+	list-style: none;
+	width: 100%;
+	padding-left: 8px;
+	color: white;
+}
+
+.menu-main ul li {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 8px;
+	line-height: 30px;
+}
+
+.menu-main ul li:hover {
+	background-color: #4a4f53;
+	cursor: pointer;
+}
+
+.menu-main ul li:hover div:first-child{
+	background-color: #4a4f53;
+	cursor: pointer;
+	background-blend-mode: saturation;
+}
+
+.menu-main ul li div:first-child{
+	height: 30px;
+	float: left;
+	width: 30px;
+	background: url('azure.png');
+	background-position: -15px -193px;
+}
+
+.menu-main ul li div+div{
+	float: left;
+	margin-left: 10px;
+	height: 30px;
+	width: 160px;
+}
+.panel {
+	float: left;
+	height: 100%;
+	width: 60%;
+	background: url('panel-azure.png');
+	background-size: 100% 100%;
+}
+#dashboard {
+	background: url('azure.png');
+	background-position: -15px -193px;
+}
+
+#resouces {
+	background: url('azure.png');
+	background-position: -15px -233px;
+}
+
+#group {
+	background: url('azure.png');
+	background-position: -15px -273px;
+}
+
+#services {
+	background: url('azure.png');
+	background-position: -15px -312px;
+}
+
+#databases{
+	background: url('azure.png');
+	background-position: -15px -354px;
+}
+
+#data-w {
+	background: url('azure.png');
+	background-position: -15px -393px;
+}
+
+#noSQL {
+	background: url('azure.png');
+	background-position: -15px -435px;
+}
+
+#virtual {
+	background: url('azure.png');
+	background-position: -15px -473px;
+}
+
+#load {
+	background: url('azure.png');
+	background-position: -15px -513px;
+}
+
+#storage {
+	background: url('azure.png');
+	background-position: -15px -553px;
+}
+
+#networks {
+	background: url('azure.png');
+	background-position: -15px -593px;
+}
+
+#azure {
+	background: url('azure.png');
+	background-position: -15px -633px;
+}
+
+#monitor {
+	background: url('azure.png');
+	background-position: -15px -673px;
+}
+
+#advisor {
+	background: url('azure.png');
+	background-position: -15px -713px;
+}
+
+#security {
+	background: url('azure2.png');
+	background-position: -15px -604px;
+}
+
+#billing {
+	background: url('azure2.png');
+	background-position: -15px -644px;
+}
+
+#help {
+	background: url('azure2.png');
+	background-position: -15px -684px;
+}

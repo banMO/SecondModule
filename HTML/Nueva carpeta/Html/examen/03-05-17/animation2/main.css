@@ -1,0 +1,51 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10%;
+	height: 15%;
+	border-radius: 50%;
+	background-color: blue;
+	animation-name: example;
+	animation-duration: 10s;
+
+}
+
+/* animation: color-change 1s ease infinite, radius-change 2s ease-in*/
+@keyframes example {
+	0% {
+		top: 0;
+		left: 0;
+		background-color: blue;
+	}
+
+	25% {
+		top: 85%;
+		left: 90%;
+		background-color: yellow;
+	}
+
+	50% {
+		top: 0%;
+		left: 90%;
+		background-color: red;
+	}
+
+	75% {
+		top: 85%;
+		left: 0%;
+		background-color: orange;
+	}
+
+	100% {
+		top: 0%;
+		left: 0%;
+		background-color: blue;
+	}
+}

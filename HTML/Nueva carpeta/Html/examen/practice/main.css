@@ -1,0 +1,182 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.nav {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background-color: white;
+	color: gray;
+}
+
+.nav div {
+	line-height: 100px;
+	width: 20%;
+	height: 100px;
+	float: left;
+	background-color: white;
+	font-size: 20px;
+}
+
+.nav div:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.nav div input{
+	width: 90%;
+	border-radius: 50px;
+}
+
+.nav div input:focus {
+	color: black;
+	border-color: blue;
+}
+
+.nav div select {
+	font-size: 15px;
+	color: gray;
+	padding: 0;
+	border: 0;
+	margin-left: 15px;
+}
+
+.hamburger {
+	display: none;
+}
+
+.hamburger:hover ol {
+	display: block;
+}
+/*
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+  section {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
+*/
+.nav div ol {
+	left: 0;
+	position: absolute;
+	display: none;
+	width: 100%;
+	top: 100px;
+	color: gray
+	padding: 0;
+	list-style: none;
+}
+
+.nav div ol div {
+	width: 100%;
+	border-bottom: solid black;
+}
+
+.nav div select:hover {
+	color: black;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+	.nav div input {
+		display: none;
+	}
+	.help {
+		display: none;
+	}
+	.search {
+		display: none;
+	}
+
+	.comunity {
+		display: none;
+	}
+	.nav div select {
+		display: none;
+	}
+	.nav div {
+		width: 50%;
+	}
+	.hamburger {
+		display: block;
+	}
+}
+
+.page {
+	margin-top: 100px;
+	width: 80%;
+	height: 100%;
+	background: white;
+	float: left;
+}
+
+.space {
+	width: 20%;
+	height: 100%;
+	float: left;
+	background: white;
+}
+
+.content {
+	width: 70%;
+	height: 100%;
+	float: left;
+	background: white;
+}
+
+.content div {
+	border-left: solid blue;
+}
+
+.content div ol {
+	color: blue;
+	list-style: none;
+	line-height: 30px;
+}
+
+.content div ol li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.categories {
+	margin-top: 100px;
+	width: 20%;
+	height: 100%;
+	background: white;
+	float: left;
+}
+
+.categories ol {
+	color: gray;
+	list-style: none;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	line-height: 30px;
+}
+
+.categories ol li:hover {
+	cursor: pointer;
+	color: black;
+}
+
+@media screen and (max-width: 600px){
+	.categories {
+		display: none;
+	}
+	.page {
+		width: 100%;
+	}
+}

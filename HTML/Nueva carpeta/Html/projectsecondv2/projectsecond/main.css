@@ -1,0 +1,327 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+embed {
+	display: none;
+}
+.nav {
+	color: white;
+	width: 100%;
+	height: 10%;
+	margin: 0;
+	background-image: url('./images/background1.png')
+	background-size: 100%;
+	position: fixed;
+}
+.nav div {
+	width: 25%;
+	height: 100%;
+	float: left;
+	line-height: 30px;
+}
+
+.nav div h2{
+	margin-left: 3%;
+}
+
+.moneda div {
+	margin-top: 4%;
+	margin-right: 4%;
+	width: 15%;
+	height: 80%;
+	background: url('./images/stargold.gif');
+	background-size: 100% 100%;
+	animation-name: moneda;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.nav div span {
+	font-size: 30px;
+}
+
+@keyframes moneda {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(180deg);
+	}
+}
+
+.objcoins {
+	background: url('./images/stargold.gif');
+	background-size: 100% 100%;
+	position: absolute;
+	width: 44px;
+	height: 40px;
+}
+
+.life div {
+	margin-top: 4%;
+	margin-right: 4%;
+	width: 10%;
+	height: 60%;
+	background: url('./images/star.png');
+	background-size: 100% 100%;
+}
+
+#page {
+	
+	width: 100%;
+	height: 100%;
+	background-image: url('./images/background1.png');
+	background-repeat: repeat-x;
+	background-size: cover;
+	animation: animatedBackground 11s linear infinite;
+}
+
+#game-over {
+	position: absolute;
+	background: url("./images/gameover.png");
+	width: 80%;
+	height: 90%;
+	right: 10%;
+	bottom: 0%;
+	display: none;
+	background-size: 100% 100%;
+}
+
+#restart {
+	
+	background: url("./images/gameover.png");
+	border-radius: 10px;
+	color: white;
+	width: 20%;
+	height: 8%;
+	position: absolute;
+	right: 40%;
+	bottom: 35%;
+	display: none;
+}
+
+#restart:hover {
+	cursor: pointer;
+	color: black;
+	background-color: yellow;
+}
+
+.shoot {
+	width: 44px;
+	height: 20px;
+	background-image: url('./images/gradius.png');
+	position: absolute;
+	background-position: 434px 58px;
+}
+
+.enemies1 {
+	width: 50px;
+	height: 50px;
+	background-image: url('./images/enemies1.png');
+	position: absolute;
+	right: 0%;
+}
+
+.enemies2 {
+	width: 50px;
+	height: 50px;
+	background-image: url('./images/enemies1.png');
+	position: absolute;
+	background-position: 279px 311px;
+	right: 0%;
+}
+
+.enemies3 {
+	width: 50px;
+	height: 50px;
+	background-image: url('./images/enemies1.png');
+	position: absolute;
+	background-position: 191px 377px;
+	right: 0%;
+}
+
+.enemies4 {
+	width: 80px;
+	height: 100px;
+	background-image: url('./images/plain.gif');
+	position: absolute;
+	background-size: 100% 100%;
+	right: 0%;
+
+}
+
+.enemies5 {
+	width: 100px;
+	height: 80px;
+	background-image: url('./images/starwars1.gif');
+	position: absolute;
+	background-size: 100% 100%;
+	right: 0%;
+
+}
+
+.enemies6 {
+	width: 50px;
+	height: 50px;
+	background-image: url('./images/starwars2.gif');
+	position: absolute;
+	background-size: 100% 100%;
+	right: 0%;
+
+}
+
+@keyframes enemies {
+	from { 
+		top:60.5%;
+
+	    right: 0%;
+	 }
+	to { 
+	  top:60.5%;
+	  transform: rotate(360deg);
+	  right: 100%;
+	  display: none;
+	 }
+}
+
+
+@keyframes animatedBackground {
+	from { background-position: 0px  }
+	to { background-position: -1370px; }
+}
+
+#mario {
+	position: absolute;
+	top: 76.5%;
+	/*background: url('.././images/spriteplayer.png');*/
+	background: url('./images/gradius.png');
+	width: 82px;
+	height: 54px;
+	background-position: -362px 286px;
+	/*animation: arriba 1s steps(4) infinite;*/
+}
+
+@keyframes abajo {
+
+	100%{
+		background-position:  -720px 286px;
+	}
+}
+@keyframes arriba{
+
+	100%{
+		background-position:  -2px 286px;
+	}	
+}
+
+@keyframes jump_right {
+	 0% {	   
+	 	 top: 76.5%;
+	 	 background-position: -860px 330px ;
+	 }
+	 50% {
+	 	background-position: -860px 330px;
+	 	top: 50%;
+	 }
+	 100% {
+	 	background-position: -860px 330px;
+	 	top: 76.5%;	
+	 }
+}
+@keyframes jump_left {
+	 0% {	   
+	 	 top: 76.5%;
+	 	 background-position: -65px 330px ;
+	 }
+	 50% {
+	 	background-position: -65px 330px;
+	 	top: 50%;
+	 }
+	 100% {
+	 	background-position: -65px 330px;
+	 	top: 76.5%;	
+	 }
+}
+
+@keyframes der {
+
+	100% {
+		background-position: -707px 330px;
+	}
+}
+
+@keyframes izq {
+
+	100% {
+		background-position: -202px 330px;
+	}
+}
+
+@keyframes stay{
+	0% {
+		background-position: -362px 286px;
+	}
+	100% {
+		background-position: -362px 286px;
+	}
+}
+
+@keyframes stay_left {
+	0% {
+		background-position: -420px 330px;
+	}
+	100% {
+		background-position: -420px 330px;
+	}
+}
+
+.turtle {
+	position: absolute;
+	top: 90%;
+	left: 30%;
+	background: url('./images/ezgif.com-crop.gif');
+	width: 8%;
+	height: 10%;
+	background-size: 100% 100%;
+	animation-iteration-count: infinite;
+	animation-duration: 8s; 
+}
+
+@keyframes turtle {
+	0%{
+		top: 80%;
+		left: 90%;
+	}
+	100% {
+		top: 80%;
+		left: 0%;
+	}
+}
+
+
+
+.goomba {
+	position: absolute;
+	top: 76%;
+	left: 60%;
+	background: url('./images/goomba.gif');
+	width: 8%;
+	height: 15%;
+	background-size: 100% 100%;
+	animation: goomba;
+	animation-iteration-count: 1;
+	animation-duration: 15s; 
+}
+
+@keyframes goomba {
+	0%{
+		top: 76%;
+		left: 60%;
+	}
+	100% {
+		top: 76%;
+		left: 0%;
+	}
+}

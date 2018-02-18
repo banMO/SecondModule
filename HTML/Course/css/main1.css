@@ -1,0 +1,25 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bar{
+	
+	height: 50px;
+	width: 100%;	
+}
+
+.nav-bar ul li
+{
+	float: right;
+	display: inline;	
+}
+.nav-bar ul li a
+{
+	color: red;
+	text-decoration: none;
+}
+
+
+	/*border-radius: solid 2px black;
+	display: inline;*/

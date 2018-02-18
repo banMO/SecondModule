@@ -1,0 +1,14 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.container {
+	height: 100px;
+	width: 100px;
+	background: red;
+	/*background: rgba(100,100,200,0.5); /* cuarto valor maneja la opacidad*/
+	opacity: 0.5;
+	background: linear-gradient(blue 10%, red 50%, yellow 50%);/*linear or radiant*/
+}

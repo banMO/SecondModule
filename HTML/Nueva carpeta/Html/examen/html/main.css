@@ -1,0 +1,77 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+.nav {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: #3b5998;
+	top: 0;
+}
+.page {
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+}
+
+.profile {
+	background-color: #dfe3ee;
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+.publications {
+	background-color: gray;
+	height: 100%;
+	width: 50%;
+	float: left;
+	overflow-y: auto;
+}
+.ads {
+	background-color: #dfe3ee;
+	height: 100%;
+	width: 15%;
+	float: left;
+}
+.news {
+	width: calc(100%-20px);
+	background-color: yellow;
+	margin: 10px;
+}
+
+.post {
+	background-color: orange;
+	width: calc(100%-20px);
+	height: 50px;
+	margin: 10px;
+}
+.friends {
+	width: 15%;
+	float: left;
+	height: 100%;
+	background-color: red;
+}
+.user-section{
+	width: 100%;
+	height: 100px;
+	background-color:  orange;
+}
+.picture {
+	width: 50%;
+	height: 100%;
+	background-color: blue;
+	float: left;
+}
+.info {
+	width: 50%;
+	height: 100%;
+	background-color: red;
+	float: left;
+}
+.profile-options {
+	width: 100%;
+	margin: 10px 0;
+	background-color: green;
+}

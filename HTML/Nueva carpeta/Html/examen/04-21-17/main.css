@@ -1,0 +1,26 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+/*sprites manegas solo las posiciones 
+*/
+.container {
+	background-image: url('images/angry-birds.png');
+	height: 125px;
+	width: 125px;
+	background-position: 0 0;
+	/*background-size: 100% 100%;
+	border: 5px solid rgba(250, 100, 100, .5);
+	/*background-repeat: repeat-x;*/
+}
+
+.container: hover {
+
+	background-position: 150px 150px;
+}
+.container: active {
+
+	background-position: 150px 150px;
+}
