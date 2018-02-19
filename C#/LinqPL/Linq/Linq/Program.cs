@@ -24,7 +24,8 @@ namespace Linq
             IEnumerable<Employee> developers = new Employee[]
             {
                 new Employee{ Id = 1, Name = "Ana"},
-                new Employee{ Id = 2, Name = "Cris"}
+                new Employee{ Id = 2, Name = "Cris"},
+                new Employee{ Id = 2, Name = "Luis"}
             };
 
             IEnumerable<Employee> sales = new List<Employee>()
@@ -32,6 +33,7 @@ namespace Linq
                 new Employee{ Id = 1, Name = "Alex"},
             };
 
+            Console.WriteLine(developers.Count());
             IEnumerator<Employee> enumerator = sales.GetEnumerator();
             while(enumerator.MoveNext())
             {
