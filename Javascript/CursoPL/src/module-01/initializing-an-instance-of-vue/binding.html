@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Growler</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">     
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">           
+    </head>
+
+    <body>
+        <div id="growler">
+            <br />
+            <div class="container">
+                <p>Nothing will appear in this example. Please view the code</p>
+                <p>{{appName}}</p>
+                <h2 v-text = "appName"></h2>
+                <h1 v-html = "second"></h1>
+                <h2 v-text = "appShow" v-bind:style = "appStyle"></h2>
+                <textarea v-model="isPower"></textarea>
+                <input type="text" name="" v-model ="isPower">gggg
+                <small>selected: {{isPower}}</small>
+                <select v-model="selectedU">
+                    <option value="beers">BEERS</option>
+                    <option valeu=:distilleries>DISTILLERIES</option>
+                </select>
+                <small>select:{{selectedU}}</small>
+                <div class="alert alert-success" role="alert">
+  This is a success alert—check it out!
+</div>
+
+            </div>
+            <input v-model= "query" placeholder="Search ..." name="">
+            <br>
+            <div>SEARCHING FOR: {{query}}</div>
+
+        </div>
+
+        <script src="https://unpkg.com/vue@2.2.5/dist/vue.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var growler = new Vue({
+                el: document.getElementById('growler'),
+                data: {
+                    appName: 'GrowlerANA',
+                    second: '<a href="/">{{appName}}</a>',
+                    appShow: 'Acm ICPC',
+                    appStyle: {
+                        color: 'aqua',
+                        fontFamily: 'Verdana',
+                        margin: 0
+                    },
+
+                    query: '',
+                    emailMessage: '',
+                    isPower: [],
+                    selectedU: []
+                }
+            });        
+        </script>
+    </body>
+</html>

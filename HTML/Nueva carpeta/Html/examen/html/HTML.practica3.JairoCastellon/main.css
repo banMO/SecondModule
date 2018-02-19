@@ -1,0 +1,340 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+.nav {
+	position: fixed;
+	width: 100%;
+	height: 8%;
+	background-color: #0D5AFF;
+	top: 0;
+}
+.space{
+	float: left;
+	width: 10%;
+	height: 100%;
+}
+.log{
+	float: left;
+	width: 14%;
+	height: 100%;
+	background-image: url('logo1.png');
+	background-size: 105% 200%;
+
+}
+.options{
+	box-sizing: border-box;
+	float: right;
+	width: auto;
+	height: 100%;
+	padding: 10px;
+	border-left: 4px;
+
+}
+.letter1{
+	position: relative;
+	bottom: 24%;
+	color: white;
+	font-size: 110%;
+}
+.button{
+	width: 90%;
+	height: 70%;
+	margin: auto;
+	color: white;
+	border: 4px;
+	border-color: blue;
+	border-radius: 50%;
+	float: right;
+	padding: 10px;
+	position: relative;
+	top: 15%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: purple;
+}
+.trial{
+	float: right;
+	width: 10%;
+	height: 100%;
+}
+.page{
+	width: 100%;
+	height: auto;
+	background: red;
+}
+.introduce{
+	box-sizing: border-box;
+	width: 100%;
+	height: 560px;
+	background-image: url('home-banner.png');
+	background-size: 100% 100%;
+	border: 10px;
+}
+.letter2{
+	position: relative;
+	top: 25%;
+	color: white;
+	font-size: 400%;
+}
+.letter3{
+	position: relative;
+	top: 20%;
+	color: white;
+	font-size: 200%;
+}
+.Watchvideo{
+	color: white;
+	font-size: 100%;
+	border-radius: 50%;
+	background-color: purple;
+	position: relative;
+	top: 120px;
+	width: 10%;
+	height: 10%;
+
+}
+.menus{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.letter4{
+	font-size: 110%;
+	color: white;
+	position: relative;
+	bottom: 10%;
+	left: 10%;
+}
+.freedom{
+	box-sizing: border-box;
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	border: 10px;
+	text-align: center;
+	align-items: center;
+}
+.letter5{
+	margin: 0;
+	font-size: 240%;
+	position: relative;
+	top: 18%;
+}
+.letter6{
+	margin:0;
+	font-size: 120%;
+	position: relative;
+	top: 22%;
+}
+.button2{
+	color: white;
+	background-color: purple;
+	position:relative;
+	top: 140px;
+	border-radius: 50%;
+	font-size: 100%;
+	width: 10%;
+	height: 15%;
+}
+.solutions{
+	box-sizing: border-box;
+	width: 100%;
+	height: 420px;
+	background-color: purple;
+	border: 10px;
+}
+.letter7{
+	color: white;
+	margin: 0;
+	font-size: 280%;
+	position: relative;
+	top: 20%;
+	left: 20%;
+}
+.letter8{
+	color: white;
+	margin: 0;
+	font-size: 120%;
+	position: relative;
+	top: 24%;
+	left: 20%;
+}
+.button3{
+	color: white;
+	background-color: purple;
+	position:relative;
+	top: 130px;
+	left: 20%;
+	border-radius: 50%;
+	font-size: 100%;
+	width: 25%;
+	height: 15%;
+}
+.enviroments{
+	box-sizing: border-box;
+	width: 100%;
+	height: 520px;
+	background-color: white;
+	border: 10px; 
+}
+.letter9{
+	margin: 0;
+	font-size: 340%;
+	position: relative;
+	top: 25%;
+}
+.letter10{
+	margin: 0;
+	font-size: 120%;
+	position: relative;
+	top: 27%;
+}
+.button4{
+	color: white;
+	background-color: purple;
+	position: relative;
+	bottom: 40%;
+	border-radius: 50%;
+	font-size: 100%;
+	width: 20%;
+	height: 30%;
+}
+.join{
+	box-sizing: border-box;
+	width: 100%;
+	height: 420px;
+	background-image: url(home-banner.png);
+	background-size: 100% 100%;
+	border: 10px;
+	align-items: center;
+	text-align: center;
+}
+.letter11{
+	color: white;
+	margin: 0;
+	font-size: 340%;
+	position: relative;
+	top: 25%;
+}
+.letter12{
+	color: white;
+	margin: 0;
+	font-size: 120%;
+	position: relative;
+	top: 27%;
+}
+.button5{
+	color: white;
+	background-color: purple;
+	position: relative;
+	top: 150px;
+	border-radius: 50%;
+	font-size: 100%;
+	width: 10%;
+	height: 15%;
+}
+.results{
+	box-sizing: border-box;
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	border: 10px;
+}
+.result{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+.title1{
+	margin:0;
+	color: blue;
+	position: relative;
+	top: 20%;
+	left: 15%;
+	font-size: 290%;
+}
+.title2{
+	margin:0;
+	position: relative;
+	top: 22%	;
+	left: 15%;
+	font-size: 130%;
+}
+.text{
+	margin:0;
+	position: relative;
+	top: 24%;
+	left: 15%;
+	font-size: 100%;
+	color: gray;
+	width: 50%;
+}
+.asociatives{
+	box-sizing: border-box;
+	width: 100%;
+	height: 300px;
+	background-color: purple;
+	border: 10px;
+	text-align: center;
+}
+.banner{
+	width: 100%;
+	height: 40%;
+	background-image: url(banner.png);
+	background-size: 108%;
+	border: 10px;
+}
+.support{
+	box-sizing: border-box;
+	width: 100%;
+	height: 420px;
+	background-image: url('careers-banner_0.jpg');
+	background-size: 100% 100%;
+	border: 10px;
+}
+.supp{
+	width: 20%;
+	float: left;
+	height: 100%;
+	margin: 0;
+}
+.buttondraw{
+	width: 50%;
+	height: 30%;
+	border-radius: 50%;
+	position: relative;
+	top: 100px;
+	left: 20%;
+	background-size: 100% 100%;
+}
+.letter13{
+	color: white;
+	position: relative;
+	top: 30%;
+	left: 27%;
+}
+.footer{
+	box-sizing: border-box;
+	width: 100%;
+	height: 620px;
+	background-color: #45434C;
+}
+.foo{
+	height: 100%;
+	float: left;
+}
+.tag1{
+	color: white;
+	font-size: 120%;
+	width: 80%;
+	line-height: 190%;
+}
+.tag2{
+	font-size: 100%;
+	color: white;
+	width: 80%;
+	line-height: 190%;
+}

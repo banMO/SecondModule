@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id='app'>
+        <!--TODO: V-MODEL hace el binding con el parrafo -->
+        <input type="text" v-model="name">
+        <p>{{ name }}</p>
+
+        <!--TODO: reacting to changes with computed properties
+        know Options for vue instance
+        *el: Connect to DOM 
+        *data: store Data to be used
+        *methods: methods of this vue instance
+        *computed: dependent properties
+        *watch: execute codeupon data changes
+         -->
+        
+    </div>
+    <script src="https://unpkg.com/vue@2.2.5/dist/vue.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        new Vue({
+            el: '#app',
+            data: {
+               name: 'Ana'
+            },
+            methods: {
+
+            }
+        });   
+    </script>
+</body>
+</html>

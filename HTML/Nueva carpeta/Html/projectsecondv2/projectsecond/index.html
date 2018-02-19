@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mario Bross</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<!--onkeydown="movMario(event)";<embed src="Best day of my life.mp3"></embed>
+<embed SRC="./music1.mp3" AUTOSTART=true LOOP=true VOLUME="80" width="0" height="0">-->
+	<div class="nav">
+		
+		<div>
+			<h2>GRADIUS</h2>
+		</div>	
+		<div class="moneda">
+			<div></div>
+			<p>
+				<span>x</span>
+				<span id="coins"></span>
+			</p>
+		</div>
+		<div class="life">
+			<div></div>
+			<p>
+				<span>x</span>
+				<span id="lives"></span>
+			</p>
+		</div>
+		<div class="time">
+			<p>
+				<span id="min">00</span>
+				<span>:</span>
+				<span id="sec">00</span>
+			</p>
+			
+		</div>
+	</div>
+	<div id="page">
+		<div id="mario"></div>
+		<div id="game-over">
+			<button id="restart" onclick="restart()">
+			 CONTINUE
+			</button>
+		</div>
+	</div>
+	<script src = "js/create_objects.js"></script>
+	<script src = "js/mario.js"></script>
+	<script src = "js/lives.js"></script>
+	<script src = "js/coins.js"></script>
+	<script src = "js/time_manager.js"></script>
+	<script src = "js/autoplay.js"></script>
+	
+</body>
+</html>

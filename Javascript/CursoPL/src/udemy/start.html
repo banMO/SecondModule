@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id='app'>
+        <p>{{title}}</p>
+        <p>{{sayHello()}}</p>
+        <p>{{sayHello1()}}</p>
+        <p>{{sayHello1()}}</p>
+        <p>{{sayHello1()}}- <a v-bind:href="link">Google</a></p>
+    </div>
+    
+    <script src="https://unpkg.com/vue@2.2.5/dist/vue.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var growler = new Vue({
+            el: document.getElementById('app'),
+            data: {
+                title: 'Hello :)',
+                //FIXME:Binding to attributes
+                //v-bind: bind something to my data
+                link: 'http://google.com'
+            },
+            methods: {
+                sayHello: function() {
+                    return 'Hi';
+                },
+                sayHello1: function() {
+                    return this.title;
+                },
+                //TODO:Binding to attributes
+
+            }
+        });        
+    </script> 
+</body>
+</html>
