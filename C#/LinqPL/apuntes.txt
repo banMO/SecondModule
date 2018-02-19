@@ -1,0 +1,46 @@
+Working with data
+    Object Data  -->Generics, Algorithms
+    Relation Data -->ADO.NET, SQL
+    XML -->XmlDocument, Xpath/ESLT
+
+LINQ Language Integrated Query
+Nos da comprobaciones de tiempo de compilacion fuertemente mecanografiadas en las consultas que se pueden
+ ejecutar
+contra datos de memoria.
+
+LINQ is EVERYWHERE
+    Objects
+    MOngoDB 
+    CSV Files
+    File System
+    SQL Database
+    XML---XML
+    JSON
+
+Using structure Query language
+
+C# features for LINQ
+Basic Queries
+Filtering Sorting Projectig
+Grouping Joining Aggregating
+XML  vs SQL DB
+
+SECOND PART
+-------------
+Objetivo.- Esta diseñado para trabajar contra diferentes fuentes de datos como los datos de memoria
+
+*THE POWER OF IEnumerable
+Todas la colecciones tienen el metodo GetEnumerator por lo tanto pueden implementar la una interfaz 
+IEnumerable de interfaz de tipo T.
+
+*EXTENSION METHOD
+Son maravillosos porque me permiten implementar funcionalidad contra una interfaz o cualquier definiciones
+sin cambiar
+
+*CREATING AN EXTENSION METHOD
+Nos permiten definir un metodo estatico que parece ser un miembrode otro tipo.
+clases interfaces estructura e incluso tipos que no podemos extender usando herencia.
+La clase stringExtensions contiene un metodo estatico denominado ToDouble.
+    ->Fisrt parameter of an extension method uses this modifier se refiere asi mismo
+    
+
