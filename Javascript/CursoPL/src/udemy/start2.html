@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>   
+    <div id='app'>
+        <!--TODO:Disable Re-rendering with v-once
+        Keep in mind: all usagesof title get re rendering once the property changes
+        v-once aun no renderiza-->
+        <h1 v-once>{{title}}</h1>
+        <p>{{sayHello1()}}</p>
+        
+
+        <!--TODO:how to ouput raw html  V-HTML -->
+        <p v-html="finishedLink">{{sayHello1()}}</p>
+
+       
+    </div>
+    
+    <script src="https://unpkg.com/vue@2.2.5/dist/vue.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var growler = new Vue({
+            el: document.getElementById('app'),
+            data: {
+                title: 'Hello :)',
+                //TODO:Using directives they allow us to do somehting 
+                finishedLink: '<a href="http://google.com">Google</a>'
+            },
+            methods: {
+                sayHello: function() {
+                    return 'Hi';
+                },
+                sayHello1: function() {
+                    this.title = 'Hello GRIC';
+                    return this.title;
+                }
+                //TODO:Using directives
+                //
+            }
+        });        
+    </script> 
+</body>
+</html>
