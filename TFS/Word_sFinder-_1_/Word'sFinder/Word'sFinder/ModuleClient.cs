@@ -13,8 +13,8 @@ namespace Word_sFinder
         
         public void FindAllCoincidence(string pathFile, string wordFind, Configuration configuration)
         {
-            Lista<string> blockLines = Reader.Read(pathFile);
-            Lista<ResultText> Result = new Lista<ResultText>();
+            MyList<string> blockLines = Reader.Read(pathFile);
+            MyList<ResultText> Result = new MyList<ResultText>();
 
             Result = Finder.FindAllCoincidence(blockLines, wordFind, configuration);
 
@@ -37,8 +37,8 @@ namespace Word_sFinder
 
         public void FindWord(string pathFile, string wordFind, Configuration configuration)
         {
-            Lista<string> blockLines = Reader.Read(pathFile);
-            Lista<ResultText> Result = new Lista<ResultText>();
+            MyList<string> blockLines = Reader.Read(pathFile);
+            MyList<ResultText> Result = new MyList<ResultText>();
 
             Result = Finder.FindWord(blockLines, wordFind, configuration);
 

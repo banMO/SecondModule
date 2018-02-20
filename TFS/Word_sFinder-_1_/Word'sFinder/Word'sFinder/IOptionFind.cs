@@ -8,7 +8,7 @@ namespace Word_sFinder
 {
     public interface  IOptionFind
     {
-        Lista<ResultText> FindAllCoincidence(Lista<string> blockLines, string wordFind, Configuration configuration);
-        Lista<ResultText> FindWord(Lista<string> blockLines, string wordFind, Configuration configuration);
+        MyList<ResultText> FindAllCoincidence(MyList<string> blockLines, string wordFind, Configuration configuration);
+        MyList<ResultText> FindWord(MyList<string> blockLines, string wordFind, Configuration configuration);
     }
 }

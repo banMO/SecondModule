@@ -8,36 +8,19 @@ namespace Word_sFinder
 {
     public class FinderWords : IOptionFind
     { 
-        /// <summary>
-        /// Find all matches by a line 
-        /// </summary>
-        /// <param name="blockLines"></param>
-        /// <param name="wordFind"></param>
-        /// <param name="configuration"></param>
-        /// <returns></returns>
-        public Lista<ResultText> FindAllCoincidence(Lista<string> blockLines, string wordFind, Configuration configuration)
+        public MyList<ResultText> FindAllCoincidence(MyList<string> blockLines, string wordFind, Configuration configuration)
         {
             return AllCoincidence(blockLines, wordFind, configuration);
         }
 
-        public Lista<ResultText> FindWord(Lista<string> blockLines, string wordFind, Configuration configuration)
-        {
-            /*if (configuration.IsCaseSensitive)
-            {
-                return FindIsCaseSensitive(blockLines, wordFind, configuration);
-            }
-            else
-            {
-                Console.WriteLine("Entro");
-                return FindIsNotCaseSensitive(blockLines, wordFind, configuration);
-            }*/
-
+        public MyList<ResultText> FindWord(MyList<string> blockLines, string wordFind, Configuration configuration)
+        { 
             return FindIsCaseSensitive(blockLines, wordFind, configuration);
         }
 
-        private Lista<ResultText> FindIsCaseSensitive(Lista<string> blockLines, string wordFind, Configuration configuration)
+        private MyList<ResultText> FindIsCaseSensitive(MyList<string> blockLines, string wordFind, Configuration configuration)
         {
-            var results = new Lista<ResultText>();
+            var results = new MyList<ResultText>();
             var ResultText = new ResultText();
             int sizeWordFind = wordFind.Length;
             int sizeLine = 0;
@@ -49,7 +32,7 @@ namespace Word_sFinder
             //foreach (var line in blockLines)
             while(blockLines.counter > 0)
             {
-                var matchesPosition = new Lista<int>();
+                var matchesPosition = new MyList<int>();
                 numberLine++;
                 //sizeLine = line.Length;
                 TextLine = blockLines.Extraer();
@@ -63,16 +46,11 @@ namespace Word_sFinder
 
                     if (j == sizeWordFind)
                     {
-                        matchesPosition.Insertar(i + 1);
+                        matchesPosition.Insert(i + 1);
                     }
                 }
                 if (matchesPosition.counter != 0)
-                {
-                    //ResultText.NumberLine = numberLine;
-
-                    //results.Add(new ResultText(numberLine, matchesPosition, wordFind, matchesPosition.Count));
-                    //results.Insertar(new ResultText());
-
+                { 
                     try
                     {
                         beforeWord = TextLine[TextLine.IndexOf(wordFind) - 1];
@@ -100,14 +78,14 @@ namespace Word_sFinder
             return results;
         }
 
-        private Lista<ResultText> AllCoincidence(Lista<string> blocklines, string wordFind, Configuration configuration)
+        private MyList<ResultText> AllCoincidence(MyList<string> blocklines, string wordFind, Configuration configuration)
         {
-            var ListOfResults = new Lista<ResultText>();
-            var NumberLine = new Lista<int>();
-            var NumberCol = new Lista<int>();
+            var ListOfResults = new MyList<ResultText>();
+            var NumberLine = new MyList<int>();
+            var NumberCol = new MyList<int>();
             var Result = new ResultText();
-            var TextFindWord = new Lista<string>();
-            string TextLine;
+            var TextFindWord = new MyList<string>();
+            string TextLine = "";
             int CountLine = 0;
             char beforeWord;
             char laterWord;
@@ -145,9 +123,9 @@ namespace Word_sFinder
 
                     if (beforeWord == ' ' && laterWord == ' ')
                     {
-                        NumberCol.Insertar(TextLine.IndexOf(wordFind));
-                        NumberLine.Insertar(CountLine);
-                        TextFindWord.Insertar(TextLine);
+                        NumberCol.Insert(TextLine.IndexOf(wordFind));
+                        NumberLine.Insert(CountLine);
+                        TextFindWord.Insert(TextLine);
 
                         Result.AmountLine = 0;
                         Result.Text = TextFindWord;
@@ -155,7 +133,7 @@ namespace Word_sFinder
                         Result.NumberLine = NumberLine;
 
 
-                        ListOfResults.Insertar(Result);
+                        ListOfResults.Insert(Result);
                     }
                 }
             }

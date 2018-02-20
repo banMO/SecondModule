@@ -12,7 +12,7 @@ namespace Word_sFinder
         {
             var ModuleClient = new ModuleClient();
 
-            ModuleClient.FindAllCoincidence(@"D:\TextToFind.txt", "que", new Configuration(false, false));
+            ModuleClient.FindAllCoincidence(@"C:\TextToFind.txt", "que", new Configuration(false, false));
         }
     }
 }

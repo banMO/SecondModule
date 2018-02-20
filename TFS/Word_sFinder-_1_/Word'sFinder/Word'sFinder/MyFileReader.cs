@@ -9,19 +9,19 @@ namespace Word_sFinder
 {
     public class MyFileReader : IReader
     {
-        public Lista<string> Read(string pathDirectory)
+        public MyList<string> Read(string pathDirectory)
         {
-            StreamReader objReader = new StreamReader(pathDirectory);
-            string sLine = "";
-            Lista<string> blockLines = new Lista<string>();
+            StreamReader reader = new StreamReader(pathDirectory);
+            string line = "";
+            MyList<string> blockLines = new MyList<string>();
 
-            while (sLine != null)
+            while (line != null)
             {
-                sLine = objReader.ReadLine();
-                if (sLine != null)
-                    blockLines.Insertar(sLine);
+                line = reader.ReadLine();
+                if (line != null)
+                    blockLines.Insert(line);
             }
-            objReader.Close();
+            reader.Close();
 
             return blockLines;
         }

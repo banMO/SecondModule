@@ -47,7 +47,7 @@
     <Compile Include="IConfiguration.cs" />
     <Compile Include="IOptionFind.cs" />
     <Compile Include="IReader.cs" />
-    <Compile Include="Lista.cs" />
+    <Compile Include="MyList.cs" />
     <Compile Include="ModuleClient.cs" />
     <Compile Include="MyFileReader.cs" />
     <Compile Include="Program.cs" />

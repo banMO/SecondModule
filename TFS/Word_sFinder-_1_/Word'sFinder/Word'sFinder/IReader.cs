@@ -8,6 +8,6 @@ namespace Word_sFinder
 {
     public interface IReader
     {
-        Lista<string> Read(string pathDirectory);
+        MyList<string> Read(string pathDirectory);
     }
 }

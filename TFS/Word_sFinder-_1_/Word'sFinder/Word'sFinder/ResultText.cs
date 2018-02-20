@@ -8,9 +8,9 @@ namespace Word_sFinder
 {
     public class ResultText
     {
-        public Lista<int> NumberLine { get; set; }
-        public Lista<int> NumberCol { get; set; }
-        public Lista<string> Text { get; set; }
+        public MyList<int> NumberLine { get; set; }
+        public MyList<int> NumberCol { get; set; }
+        public MyList<string> Text { get; set; }
         public int AmountLine { get; set; }
 
         /// <summary>
@@ -26,7 +26,7 @@ namespace Word_sFinder
 
         }
 
-        public ResultText(Lista<int> numberLine, Lista<int> numberCol, Lista<string> text, int amountLine)
+        public ResultText(MyList<int> numberLine, MyList<int> numberCol, MyList<string> text, int amountLine)
         {
             NumberLine = numberLine;
             NumberCol = numberCol;
