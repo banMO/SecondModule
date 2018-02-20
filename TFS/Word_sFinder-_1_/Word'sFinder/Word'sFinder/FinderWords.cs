@@ -89,7 +89,6 @@ namespace Word_sFinder
             int CountLine = 0;
             char beforeWord;
             char laterWord;
-            StringComparison comp = StringComparison.Ordinal;
 
             bool IsWordFind;
 

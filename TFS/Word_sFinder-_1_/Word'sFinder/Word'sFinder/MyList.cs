@@ -38,8 +38,7 @@ namespace Word_sFinder
 
         public void Insert(T info)
         {
-            Node<T> newNode;
-            newNode = new Node<T>();
+            Node<T> newNode = new Node<T>();
             newNode.info = info;
             newNode.next = null;
             if (IsEmpty())
