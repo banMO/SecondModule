@@ -1,0 +1,26 @@
+MARKDOWN
+ It was born from original write and implement by Jonh Gruber.
+ Title
+ ===== ---> h1
+
+ sub-title
+ ---------- --->h2
+
+ *Item One
+ *Item two ----> <ul> <li>Item one</li></ul>
+
+
+ Syntax
+  * Block Elements
+    Block elements are things like headers, paragraphs and list.
+      * para listas no ordenadas
+      - para listad ordenadas se crea con numeros
+  * Span Elements
+    Links, images and inline code are span elements. 
+  * Miscellaneous
+
+C#
+  Paralelismo 
+  **Threading
+  **Asynchronous Programing Patters
+  **Parallel Programing

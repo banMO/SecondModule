@@ -1,1 +1,31 @@
-tener un archivo config
+Tener un archivo config
+  *nombre producto todo lo comun compartido linkeado
+  Vesion: 0.1.*
+  config
+    --->Shared AssemblyInfo.cs
+    --->StyleCop setting
+    --->setting vs satic  code analyzer
+
+  Continous deployment cada semana 
+  Properties
+    ---->AssemblyInfo
+    ---->Shared
+
+  src
+    --->Web Ap1
+    --->
+    --->
+
+  test 
+    --->
+    --->
+    --->Integration
+          --->test.dll metricas csv verificar en que fallo
+          Example:  JMeter --> 20threads and 10 loops----GET
+                    podemos usar variables de entorno se corre en el release
+                    controller hasta la base de datos
+
+                    pull request---> item asociado y especificacion
+                    Check List 
+                    Code Coverage 
+                      *script powershell
