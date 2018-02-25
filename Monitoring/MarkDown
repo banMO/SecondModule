@@ -15,9 +15,21 @@ MARKDOWN
     Block elements are things like headers, paragraphs and list.
       * para listas no ordenadas
       - para listad ordenadas se crea con numeros
+      # headers
+      > blockquotes
+      - list
+      
   * Span Elements
-    Links, images and inline code are span elements. 
+    Links, images and inline code are span elements.
+    [Google](www.google.com)links
+    ![]()imagen
+
   * Miscellaneous
+
+
+Tools fow working on Markdown content
+  - Web site tools
+  -MarkDownPad2
 
 C#
   Paralelismo 
